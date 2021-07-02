@@ -27,15 +27,16 @@ description: Contents of the Minecraft.World class.
 getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension
 `
 
-#### 参数
+#### 实参列表
 | 参数 | 类型 | 简介 |
 | :--- | :--- | :---: |
 | **dimensionName** | `'overworld'`, `'nether'`, `'the end'` | 维度的名称 |
 
 返回 [*Dimension*](Dimension.md) - 根据参数返回维度
 
-> [!警告]
-> 如果维度名称参数无效，则抛出异常
+::: warning 警告
+如果维度名称参数无效，则抛出异常
+:::
 
 ### **getPlayers**
 `
