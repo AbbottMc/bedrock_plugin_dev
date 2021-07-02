@@ -11,7 +11,7 @@ description: Contents of the Minecraft.Trigger class.
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
 
-Represents a trigger for firing an event.
+<!-- Represents a trigger for firing an event. -->
 表示触发事件的触发器。
 
 
