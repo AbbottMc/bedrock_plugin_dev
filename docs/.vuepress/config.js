@@ -16,6 +16,10 @@ module.exports = {
         text: '文档',
         link: '/zh/script_api/'
       },
+      {
+        text: 'Gitee',
+        link: 'https://gitee.com/qianshanyao/bedrock_plugin_dev'
+      },
       /*{
         text: '榫框架',
         link: 'https://baidu.com'

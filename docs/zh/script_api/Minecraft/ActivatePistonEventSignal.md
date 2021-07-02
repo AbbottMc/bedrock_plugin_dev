@@ -50,12 +50,14 @@ unsubscribe(callback: (arg: ActivatePistonEvent) => undefined): void
 `
 
 Removes a callback from being called when a piston expands or retracts.
+
 #### Arguments
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **callback** | (arg: ActivatePistonEvent) => undefined | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告
+这个函数可以抛出错误
+:::
 
