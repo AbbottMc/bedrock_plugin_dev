@@ -130,11 +130,11 @@ addEffect(effectType: EffectType, duration: number, amplifier: number): void
 triggerEvent(eventName: string): void
 `
 
-Triggers an entity type event. For every entity, a number of events are defined in an entities' definition for key entity behaviors; for example, creepers have a minecraft:start_exploding type event.
+触发实体类事件。对于每个实体，都有对应键值的定义，例如苦力怕有minecraft:start_exploding类型的事件
 #### 实参列表
-| 参数 | Type | 描述 |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **eventName** | *string* | Name of the entity type event to trigger. If a namespace is not specified, minecraft: is assumed. |
+| **eventName** | *string* | 要触发的实体类事件的名字。如果没有特别声明命名空间，则假定有minecraft:前缀 |
 
 
 > [!WARNING]
