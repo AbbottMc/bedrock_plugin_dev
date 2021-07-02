@@ -34,8 +34,9 @@ getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension
 
 返回 [*Dimension*](Dimension.md) - 根据参数返回维度
 
-> [!警告]
+> :::warning 警告
 > 如果维度名称参数无效，则抛出异常
+> :::
 
 ### **getPlayers**
 `
