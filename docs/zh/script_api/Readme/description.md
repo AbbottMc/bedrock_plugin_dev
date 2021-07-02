@@ -15,7 +15,7 @@
 
 ### 不是中文文档嘛？为什么还有那么多接口文档是英文的？
 本文档仍处于建设状态，个人能力有限，还需时间，欢迎有能力的开发者加入一同翻译建设。  
-gitee仓库链接：  
+github仓库链接：[https://github.com/AbbottMc/bedrock_plugin_dev](https://github.com/AbbottMc/bedrock_plugin_dev/)  
 Plugin开发/文档交流群(QQ)：768019903
 
 ### 垃圾文档，怎么什么接口都没有，开发个der，爬爬爬

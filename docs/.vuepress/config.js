@@ -45,15 +45,7 @@ module.exports = {
                 link: 'https://wiki.adodoz.cn'
               }
             ]
-          }/* ,
-          {
-            text: 'API文档',
-            link: "/zh/api/"
-          },
-          {
-            text: '开发指南',
-            link: "/zh/dev_guide/"
-          } */
+          }
         ]
       }
     ],
@@ -72,7 +64,7 @@ module.exports = {
           "children": [{
             "title": "GameTest",
             "collapsable": false,
-            "path": "GameTest.md",
+            "path": "GameTest/GameTest.md",
             "sidebarDepth": 2,
             "children": [["GameTest/GameTestSequence.md", "GameTestSequence"],
               ["GameTest/Helper.md", "Helper"], ["GameTest/RegistrationBuilder.md", "RegistrationBuilder"],
@@ -80,7 +72,7 @@ module.exports = {
           }, {
             "title": "Minecraft",
             "collapsable": false,
-            "path": "Minecraft.md",
+            "path": "Minecraft/Minecraft.md",
             "sidebarDepth": 2,
             "children": [["Minecraft/ActivatePistonEvent.md", "ActivatePistonEvent"],
               ["Minecraft/ActivatePistonEventSignal.md", "ActivatePistonEventSignal"],
