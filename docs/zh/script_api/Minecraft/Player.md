@@ -56,7 +56,7 @@ hasComponent(componentId: string): boolean
 | :--- | :--- | :---: |
 | **componentId** | *string* | - |
 
-返回 *boolean*布尔值
+返回 *boolean*布尔值。
 
 
 ### **getComponent**
