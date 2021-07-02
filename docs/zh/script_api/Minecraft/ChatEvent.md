@@ -6,27 +6,28 @@ ms.prod: gaming
 title: Minecraft.ChatEvent Class
 description: Contents of the Minecraft.ChatEvent class.
 ---
-# ChatEvent Class
->[!IMPORTANT]
->These APIs are experimental as part of GameTest Framework. As with all experiments, you may see changes in functionality in updated Minecraft versions. Check the Minecraft Changelog for details on any changes to GameTest Framework APIs.
+# ChatEvent 类
+:::warning 注意
+These APIs are experimental as part of GameTest Framework. As with all experiments, you may see changes in functionality in updated Minecraft versions. Check the Minecraft Changelog for details on any changes to GameTest Framework APIs.
+:::
 
-An event that fires as players enter chat messages.
+玩家发出聊天信息时触发的事件
 
-## Properties
+## 属性
 ### **message** - `string`
-Message that is being broadcast. In a beforeChat event handler, _message_ can be updated with edits before the message is displayed to players.
+此时message已经被广播给所有玩家，开发者可通过修改BeforeChatEvent中的message参数来修改呈现在玩家消息栏中的信息
 
 
 ### **sender** - `Player`
-Player that sent the chat message.
+发送信息的玩家
 
 
 ### **targets** - `Player[]`
-List of players that will receive this message.
+将要收到这条信息的玩家列表
 
 
 ### **sendToTargets** - `boolean`
-If true, this message is directly targeted to one or more players (i.e., is not broadcast.)
+如果值为true，此信息将会被显示给特定的对象（即不向所有玩家广播）
 
 
 
