@@ -1,44 +1,43 @@
 ---
-# DO NOT TOUCH — This file was automatically generated. See https://github.com/Mojang/MinecraftScriptingApiDocsGenerator to modify descriptions, examples, etc.
+# DO NOT TOUCH — This file was automatically generated. See https://github.com/Mojang/MinecraftScriptingApiDocsGenerator to modify 描述s, examples, etc.
 author: jakeshirley
 ms.author: jashir
 ms.prod: gaming
 title: Minecraft.Player Class
-description: Contents of the Minecraft.Player class.
+描述: Contents of the Minecraft.Player class.
 ---
 # Player Class
->[!IMPORTANT]
->These APIs are experimental as part of GameTest Framework. As with all experiments, you may see changes in functionality in updated Minecraft versions. Check the Minecraft Changelog for details on any changes to GameTest Framework APIs.
+::: warning 注意
+这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
+:::
 
-Represents a player within the world.
-
-## Properties
+## 属性
 ### **id** - `string`
-Identifier for the player.
+玩家的ID。
 
 
 ### **location** - `Location`
-Current location of the player.
+玩家目前的位置。
 
 
 ### **velocity** - `Location`
-Current speed of the player across X, Y, and Z dimensions.
+玩家目前的加速度。
 
 
 ### **nameTag** - `string`
-Optional name tag of the player.
+玩家的名称标签。
 
 
 ### **isSneaking** - `boolean`
-True if the player is currently using a sneaking movement.
+判断玩家是否处于蹲下的状态，如果是，返回true。
 
 
 ### **name** - `string`
-Name of the player.
+玩家名称。
 
 
 
-## Methods
+## 方法
 - [hasComponent](#hascomponent)
 - [getComponent](#getcomponent)
 - [getComponents](#getcomponents)
@@ -52,12 +51,12 @@ Name of the player.
 hasComponent(componentId: string): boolean
 `
 
-#### Arguments
-| Param | Type | Description |
+#### 实参列表
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **componentId** | *string* | - |
 
-Returns *boolean*
+返回 *boolean*布尔值
 
 
 ### **getComponent**
@@ -65,12 +64,12 @@ Returns *boolean*
 getComponent(componentId: string): any
 `
 
-#### Arguments
-| Param | Type | Description |
+#### 实参列表
+| 参数 | Type | 描述 |
 | :--- | :--- | :---: |
 | **componentId** | *string* | - |
 
-Returns *any*
+返回 *any*
 
 
 ### **getComponents**
@@ -78,8 +77,7 @@ Returns *any*
 getComponents(): any[]
 `
 
-
-Returns *any*[]
+返回 *any*[]
 
 
 ### **kill**
@@ -87,55 +85,58 @@ Returns *any*[]
 kill(): void
 `
 
+杀死玩家。
 
 
 > [!WARNING]
-> This function can throw errors.
+> 这个功能可能会抛出错误
 
 ### **getEffect**
 `
 getEffect(effectType: EffectType): Effect
 `
 
-#### Arguments
-| Param | Type | Description |
+获取玩家附着的效果
+
+#### 实参列表
+| 参数 | Type | 描述 |
 | :--- | :--- | :---: |
 | **effectType** | [*EffectType*](EffectType.md) | - |
 
-Returns [*Effect*](Effect.md)
+返回 [*Effect*](Effect.md)
 
 > [!WARNING]
-> This function can throw errors.
+> 这个功能可能会抛出错误
 
 ### **addEffect**
 `
 addEffect(effectType: EffectType, duration: number, amplifier: number): void
 `
 
-Adds an effect, like poison, to the entity.
-#### Arguments
-| Param | Type | Description |
+为玩家添加效果，如中毒(poison)，凋零(wither)，瞬间伤害(InstantDamage)。
+#### 实参列表
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **effectType** | [*EffectType*](EffectType.md) | Type of effect to add to the entity. |
-| **duration** | *number* | Amount of time, in seconds, for the effect to apply. |
-| **amplifier** | *number* | Optional amplification of the effect to apply. |
+| **effectType** | [*EffectType*](EffectType.md) | 对实体添加的效果类型|
+| **duration** | *number* | 效果的持续时间 |
+| **amplifier** | *number* | 效果的强度等级 |
 
 
 > [!WARNING]
-> This function can throw errors.
+> 这个功能可能会抛出错误
 
 ### **triggerEvent**
 `
 triggerEvent(eventName: string): void
 `
 
-Triggers an entity type event. For every entity, a number of events are defined in an entities' definition for key entity behaviors; for example, creepers have a minecraft:start_exploding type event.
-#### Arguments
-| Param | Type | Description |
+触发实体类事件。对于每个实体，都有对应键值的定义，例如苦力怕有minecraft:start_exploding类型的事件
+#### 实参列表
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **eventName** | *string* | Name of the entity type event to trigger. If a namespace is not specified, minecraft: is assumed. |
+| **eventName** | *string* | 要触发的实体类事件的名字。如果没有特别声明命名空间，则假定有minecraft:前缀 |
 
 
 > [!WARNING]
-> This function can throw errors.
+> 这个功能可能会抛出错误
 
