@@ -12,21 +12,21 @@ description: Contents of the Minecraft.ChatEvent class.
 
 当玩家发出聊天信息时触发的事件
 
-## Properties
-### **message** - `string`
-Message that is being broadcast. In a beforeChat event handler, _message_ can be updated with edits before the message is displayed to players.
+## 属性
+### **message** - `字符串`
+此时message已经被广播给所有玩家，在BeforeChatEvent事件中，可以修改此参数以修改显示给玩家的信息
 
 
-### **sender** - `Player`
-Player that sent the chat message.
+### **sender** - `玩家实例`
+发送信息的玩家
 
 
-### **targets** - `Player[]`
-List of players that will receive this message.
+### **targets** - `玩家列表`
+将要收到这条信息的玩家列表
 
 
-### **sendToTargets** - `boolean`
-If true, this message is directly targeted to one or more players (i.e., is not broadcast.)
+### **sendToTargets** - `布尔值`
+如果值为true，此信息将会被显示给特定的对象（即不向所有玩家广播）
 
 
 
