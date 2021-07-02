@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Plugin系统文档',
-  description: 'Minecraft Plugin系统文档',
+  description: 'Minecraft Plugin 系统文档',
   base: 'bedrock_plugin_dev',
   themeConfig: {
     lastUpdated: '本文最后更新于',
