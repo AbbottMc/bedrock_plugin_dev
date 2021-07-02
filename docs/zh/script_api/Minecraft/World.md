@@ -6,19 +6,19 @@ ms.prod: gaming
 title: Minecraft.World Class
 description: Contents of the Minecraft.World class.
 ---
-# World Class
->[!IMPORTANT]
->These APIs are experimental as part of GameTest Framework. As with all experiments, you may see changes in functionality in updated Minecraft versions. Check the Minecraft Changelog for details on any changes to GameTest Framework APIs.
+# World 类
+::: warning 注意
+这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
+:::
 
-A class that wraps the state of a dimension (such as the overworld, the nether, or the end)
+包装了维度状态的类（比如overworld(主世界)、the nether(下界)或者the end(末地)）
 
-## Properties
+## 属性
 ### **events** - `Events`
-Contains a set of events that are applicable to the entirety of the world.
+包含了一组适用于整个世界的事件。
 
 
-
-## Methods
+## 方法
 - [getDimension](#getdimension)
 - [getPlayers](#getplayers)
   
@@ -27,23 +27,21 @@ Contains a set of events that are applicable to the entirety of the world.
 getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension
 `
 
-#### Arguments
-| Param | Type | Description |
+#### 参数
+| 参数 | 类型 | 简介 |
 | :--- | :--- | :---: |
-| **dimensionName** | `'overworld'`, `'nether'`, `'the end'` | The name of the Dimension |
+| **dimensionName** | `'overworld'`, `'nether'`, `'the end'` | 维度的名称 |
 
-Returns [*Dimension*](Dimension.md) - The requested dimension
+返回 [*Dimension*](Dimension.md) - 根据参数返回维度
 
-> [!WARNING]
-> Throws if the given dimension name is invalid
+> [!警告]
+> 如果维度名称参数无效，则抛出异常
 
 ### **getPlayers**
 `
 getPlayers(): Player[]
 `
 
-Returns all players currently in the world.
+返回当前世界中的所有玩家。
 
-Returns [*Player*](Player.md)[] - All players currently in the world.
-
-
+返回 [*Player*](Player.md)[] - 当前世界中的所有玩家。
