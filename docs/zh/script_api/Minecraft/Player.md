@@ -33,7 +33,7 @@ title: Minecraft.Player Class
 
 
 ### **name** - `string`
-Name of the player.
+玩家名称。
 
 
 
@@ -85,6 +85,7 @@ getComponents(): any[]
 kill(): void
 `
 
+杀死玩家。
 
 
 > [!WARNING]
@@ -102,7 +103,7 @@ getEffect(effectType: EffectType): Effect
 | :--- | :--- | :---: |
 | **effectType** | [*EffectType*](EffectType.md) | - |
 
-Returns [*Effect*](Effect.md)
+返回 [*Effect*](Effect.md)
 
 > [!WARNING]
 > 这个功能可能会抛出错误
