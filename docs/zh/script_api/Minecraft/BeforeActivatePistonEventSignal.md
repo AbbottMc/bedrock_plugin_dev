@@ -43,6 +43,5 @@ Removes a callback from being called before a piston expands or retracts.
 | **callback** | (arg: BeforeActivatePistonEvent) => undefined | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
