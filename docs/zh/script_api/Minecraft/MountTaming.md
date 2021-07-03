@@ -33,5 +33,7 @@ Sets this rideable entity as tamed.
 | **showParticles** | *boolean* | Whether to show effect particles when this entity is tamed. |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

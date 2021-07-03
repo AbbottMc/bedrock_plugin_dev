@@ -51,4 +51,6 @@ tame(): boolean
 返回值类型 *boolean*。返回这个实体是否被驯服。 
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::

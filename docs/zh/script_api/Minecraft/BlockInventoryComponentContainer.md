@@ -42,7 +42,9 @@ Sets an item stack within a particular slot.
 | **itemStack** | [*ItemStack*](ItemStack.md) | Stack of items to place within the specified slot. |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **getItem**
 `
@@ -57,7 +59,9 @@ Gets the item stack for the set of items at the specified slot. If the slot is e
 
 Returns [*ItemStack*](ItemStack.md)
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### 示例
 ##### ***getItem.js***
@@ -79,7 +83,9 @@ Adds an item to the specified container. Item will be placed in the first availa
 | **itemStack** | [*ItemStack*](ItemStack.md) | The stack of items to add. |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **transferItem**
 `
@@ -96,7 +102,9 @@ Moves an item from one slot to another, potentially across containers.
 
 Returns *boolean*
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***transferItem.js***
@@ -119,7 +127,9 @@ Swaps items between two different slots within containers.
 
 Returns *boolean*
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### 示例
 ##### ***swapItems.js***

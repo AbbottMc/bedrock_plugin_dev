@@ -40,5 +40,7 @@ unsubscribe(callback: (arg: EntityEvent) => undefined): void
 | **callback** | (arg: EntityEvent) => undefined | - |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

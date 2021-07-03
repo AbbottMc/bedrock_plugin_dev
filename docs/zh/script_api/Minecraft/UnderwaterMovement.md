@@ -40,7 +40,9 @@ setCurrent(): void
 Sets the current value of movement speed underwater for the entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 
 ### **resetToMinValue**
@@ -51,7 +53,9 @@ resetToMinValue(): void
 Resets the movement speed underwater to the minimum value as defined by the component state of this entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToMaxValue**
 `
@@ -61,7 +65,9 @@ resetToMaxValue(): void
 Resets the movement speed underwater to the maximum value for the entity, as determined by the set of components that are on the entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToDefaultValue**
 `
@@ -71,4 +77,6 @@ resetToDefaultValue(): void
 Resets the current movement speed underwater for the entity to the default value implied by the current component state of the entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::

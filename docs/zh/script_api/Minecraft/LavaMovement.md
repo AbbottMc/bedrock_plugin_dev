@@ -40,7 +40,9 @@ setCurrent(): void
 Sets the current value of movement speed on lava for the entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToMinValue**
 `
@@ -50,7 +52,9 @@ resetToMinValue(): void
 Resets the movement speed on lava speed to the minimum value.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToMaxValue**
 `
@@ -60,7 +64,9 @@ resetToMaxValue(): void
 Resets the movement speed on lava to the maximum value for the entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToDefaultValue**
 `
@@ -70,5 +76,7 @@ resetToDefaultValue(): void
 Resets the current movement speed on lava for the entity to its default value.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

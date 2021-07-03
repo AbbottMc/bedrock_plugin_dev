@@ -44,6 +44,7 @@ Removes a callback from being called every tick.
 
 Returns *undefined*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 

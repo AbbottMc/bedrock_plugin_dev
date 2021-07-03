@@ -29,7 +29,9 @@ Runs a particular command from the context of the server. Command strings should
 
 Returns *json* - For commands that return data, returns a structure with command response values.
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### 示例
 ##### ***commands.js***

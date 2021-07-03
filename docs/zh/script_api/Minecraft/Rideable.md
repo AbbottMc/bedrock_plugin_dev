@@ -78,7 +78,9 @@ addRider(rider: Entity): boolean
 
 Returns *boolean* - 如果成功骑乘，则返回true
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **ejectRider**
 `
@@ -93,7 +95,9 @@ ejectRider(rider: Entity): void
 | **rider** | [*Entity*](Entity.md) | 被取消骑乘的实体 |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **ejectRiders**
 `
@@ -102,5 +106,7 @@ ejectRiders(): void
 
 让所有骑乘本实体的实体取消骑乘
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

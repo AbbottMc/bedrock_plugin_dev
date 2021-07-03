@@ -90,5 +90,7 @@ Creates an explosion at the specified location.
 | **explosionOptions** | [*ExplosionOptions*](ExplosionOptions.md) | Additional configurable options for the explosion. |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

@@ -40,7 +40,9 @@ setCurrent(): void
 Sets the current health of the entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToMinValue**
 `
@@ -50,7 +52,9 @@ resetToMinValue(): void
 Resets the current health to the minimum value.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToMaxValue**
 `
@@ -60,7 +64,9 @@ resetToMaxValue(): void
 Resets the current health of the entity to its maximum value.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **resetToDefaultValue**
 `
@@ -70,5 +76,7 @@ resetToDefaultValue(): void
 Resets the current health value of the entity to its default value.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

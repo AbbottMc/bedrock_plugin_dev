@@ -43,6 +43,7 @@ Removes a callback from being called for basic events.
 | **callback** | () => undefined | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 

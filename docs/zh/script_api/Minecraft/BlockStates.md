@@ -145,8 +145,9 @@ multiFaceDirectionBits(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **bigDripleafHead**
 `
@@ -160,8 +161,9 @@ bigDripleafHead(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **bigDripleafTilt**
 `
@@ -175,8 +177,9 @@ bigDripleafTilt(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **growingPlantAge**
 `
@@ -190,8 +193,9 @@ growingPlantAge(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **dripstoneThickness**
 `
@@ -205,8 +209,9 @@ dripstoneThickness(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **respawnAnchorCharge**
 `
@@ -220,8 +225,9 @@ respawnAnchorCharge(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **twistingVinesAge**
 `
@@ -235,8 +241,9 @@ twistingVinesAge(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **rotation**
 `
@@ -250,8 +257,9 @@ rotation(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **wallConnectionTypeWest**
 `
@@ -265,8 +273,9 @@ wallConnectionTypeWest(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **wallConnectionTypeSouth**
 `
@@ -280,8 +289,9 @@ wallConnectionTypeSouth(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **wallConnectionTypeEast**
 `
@@ -295,8 +305,9 @@ wallConnectionTypeEast(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **wallConnectionTypeNorth**
 `
@@ -310,8 +321,9 @@ wallConnectionTypeNorth(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **wallPostBit**
 `
@@ -325,8 +337,9 @@ wallPostBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **weepingVinesAge**
 `
@@ -340,8 +353,9 @@ weepingVinesAge(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **honeyLevel**
 `
@@ -355,8 +369,9 @@ honeyLevel(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **blockLightLevel**
 `
@@ -370,8 +385,9 @@ blockLightLevel(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **pillarAxis**
 `
@@ -385,8 +401,9 @@ pillarAxis(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **leverDirection**
 `
@@ -400,8 +417,9 @@ leverDirection(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **coralFanDirection**
 `
@@ -415,8 +433,9 @@ coralFanDirection(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **composterFillLevel**
 `
@@ -430,8 +449,9 @@ composterFillLevel(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **extinguished**
 `
@@ -445,8 +465,9 @@ extinguished(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **structureBlockType**
 `
@@ -460,8 +481,9 @@ structureBlockType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **structureVoidType**
 `
@@ -475,8 +497,9 @@ structureVoidType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **attachment**
 `
@@ -490,8 +513,9 @@ attachment(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **coralHangTypeBit**
 `
@@ -505,8 +529,9 @@ coralHangTypeBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **strippedBit**
 `
@@ -520,8 +545,9 @@ strippedBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **hanging**
 `
@@ -535,8 +561,9 @@ hanging(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **cauldronLiquid**
 `
@@ -550,8 +577,9 @@ cauldronLiquid(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **coralColor**
 `
@@ -565,8 +593,9 @@ coralColor(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **seaGrassType**
 `
@@ -580,8 +609,9 @@ seaGrassType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **chemistryTableType**
 `
@@ -595,8 +625,9 @@ chemistryTableType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **doublePlantType**
 `
@@ -610,8 +641,9 @@ doublePlantType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **prismarineBlockType**
 `
@@ -625,8 +657,9 @@ prismarineBlockType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **wallBlockType**
 `
@@ -640,8 +673,9 @@ wallBlockType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **hugeMushroomBits**
 `
@@ -655,8 +689,9 @@ hugeMushroomBits(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stoneBrickType**
 `
@@ -670,8 +705,9 @@ stoneBrickType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **monsterEggStoneType**
 `
@@ -685,8 +721,9 @@ monsterEggStoneType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stoneSlabType4**
 `
@@ -700,8 +737,9 @@ stoneSlabType4(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stoneSlabType3**
 `
@@ -715,8 +753,9 @@ stoneSlabType3(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stoneSlabType2**
 `
@@ -730,8 +769,9 @@ stoneSlabType2(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stoneSlabType**
 `
@@ -745,8 +785,9 @@ stoneSlabType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **flowerType**
 `
@@ -760,8 +801,9 @@ flowerType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **tallGrassType**
 `
@@ -775,8 +817,9 @@ tallGrassType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **sandStoneType**
 `
@@ -790,8 +833,9 @@ sandStoneType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **spongeType**
 `
@@ -805,8 +849,9 @@ spongeType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **newLeafType**
 `
@@ -820,8 +865,9 @@ newLeafType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **oldLeafType**
 `
@@ -835,8 +881,9 @@ oldLeafType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **deprecated**
 `
@@ -850,8 +897,9 @@ deprecated(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **chiselType**
 `
@@ -865,8 +913,9 @@ chiselType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **newLogType**
 `
@@ -880,8 +929,9 @@ newLogType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **oldLogType**
 `
@@ -895,8 +945,9 @@ oldLogType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **sandType**
 `
@@ -910,8 +961,9 @@ sandType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **dirtType**
 `
@@ -925,8 +977,9 @@ dirtType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stoneType**
 `
@@ -940,8 +993,9 @@ stoneType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **woodType**
 `
@@ -955,8 +1009,9 @@ woodType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stabilityCheck**
 `
@@ -970,8 +1025,9 @@ stabilityCheck(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **stability**
 `
@@ -985,8 +1041,9 @@ stability(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **bambooLeafSize**
 `
@@ -1000,8 +1057,9 @@ bambooLeafSize(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **bambooStalkThickness**
 `
@@ -1015,8 +1073,9 @@ bambooStalkThickness(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **color**
 `
@@ -1030,8 +1089,9 @@ color(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **coralDirection**
 `
@@ -1045,8 +1105,9 @@ coralDirection(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **weirdoDirection**
 `
@@ -1060,8 +1121,9 @@ weirdoDirection(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **groundSignDirection**
 `
@@ -1075,8 +1137,9 @@ groundSignDirection(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **crackedState**
 `
@@ -1090,8 +1153,9 @@ crackedState(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **turtleEggCount**
 `
@@ -1105,8 +1169,9 @@ turtleEggCount(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **dragDown**
 `
@@ -1120,8 +1185,9 @@ dragDown(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **torchFacingDirection**
 `
@@ -1135,8 +1201,9 @@ torchFacingDirection(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **saplingType**
 `
@@ -1150,8 +1217,9 @@ saplingType(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **itemFrameMapBit**
 `
@@ -1165,8 +1233,9 @@ itemFrameMapBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **clusterCount**
 `
@@ -1180,8 +1249,9 @@ clusterCount(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **deadBit**
 `
@@ -1195,8 +1265,9 @@ deadBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **colorBit**
 `
@@ -1210,8 +1281,9 @@ colorBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **allowUnderwaterBit**
 `
@@ -1225,8 +1297,9 @@ allowUnderwaterBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **vineDirectionBits**
 `
@@ -1240,8 +1313,9 @@ vineDirectionBits(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **upsideDownBit**
 `
@@ -1255,8 +1329,9 @@ upsideDownBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **updateBit**
 `
@@ -1270,8 +1345,9 @@ updateBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **triggeredBit**
 `
@@ -1285,8 +1361,9 @@ triggeredBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **topSlotBit**
 `
@@ -1300,8 +1377,9 @@ topSlotBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **toggleBit**
 `
@@ -1315,8 +1393,9 @@ toggleBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **suspendedBit**
 `
@@ -1330,8 +1409,9 @@ suspendedBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **repeaterDelay**
 `
@@ -1345,8 +1425,9 @@ repeaterDelay(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **redstoneSignal**
 `
@@ -1360,8 +1441,9 @@ redstoneSignal(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **railDirection**
 `
@@ -1375,8 +1457,9 @@ railDirection(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **railDataBit**
 `
@@ -1390,8 +1473,9 @@ railDataBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **poweredBit**
 `
@@ -1405,8 +1489,9 @@ poweredBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **persistentBit**
 `
@@ -1420,8 +1505,9 @@ persistentBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **outputLitBit**
 `
@@ -1435,8 +1521,9 @@ outputLitBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **outputSubtractBit**
 `
@@ -1450,8 +1537,9 @@ outputSubtractBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **openBit**
 `
@@ -1465,8 +1553,9 @@ openBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **occupiedBit**
 `
@@ -1480,8 +1569,9 @@ occupiedBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **kelpAge**
 `
@@ -1495,8 +1585,9 @@ kelpAge(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **noDropBit**
 `
@@ -1510,8 +1601,9 @@ noDropBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **moisturizedAmount**
 `
@@ -1525,8 +1617,9 @@ moisturizedAmount(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **liquidDepth**
 `
@@ -1540,8 +1633,9 @@ liquidDepth(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **inWallBit**
 `
@@ -1555,8 +1649,9 @@ inWallBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **infiniburnBit**
 `
@@ -1570,8 +1665,9 @@ infiniburnBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **height**
 `
@@ -1585,8 +1681,9 @@ height(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **headPieceBit**
 `
@@ -1600,8 +1697,9 @@ headPieceBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **growth**
 `
@@ -1615,8 +1713,9 @@ growth(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **fillLevel**
 `
@@ -1630,8 +1729,9 @@ fillLevel(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **facingDirection**
 `
@@ -1645,8 +1745,9 @@ facingDirection(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **explodeBit**
 `
@@ -1660,8 +1761,9 @@ explodeBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **endPortalEyeBit**
 `
@@ -1675,8 +1777,9 @@ endPortalEyeBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **direction**
 `
@@ -1690,8 +1793,9 @@ direction(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **upperBlockBit**
 `
@@ -1705,8 +1809,9 @@ upperBlockBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **doorHingeBit**
 `
@@ -1720,8 +1825,9 @@ doorHingeBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **disarmedBit**
 `
@@ -1735,8 +1841,9 @@ disarmedBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **damage**
 `
@@ -1750,8 +1857,9 @@ damage(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **coveredBit**
 `
@@ -1765,8 +1873,9 @@ coveredBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **conditionalBit**
 `
@@ -1780,8 +1889,9 @@ conditionalBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **buttonPressedBit**
 `
@@ -1795,8 +1905,9 @@ buttonPressedBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **brewingStandSlotCBit**
 `
@@ -1810,8 +1921,9 @@ brewingStandSlotCBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **brewingStandSlotBBit**
 `
@@ -1825,8 +1937,9 @@ brewingStandSlotBBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **brewingStandSlotABit**
 `
@@ -1840,8 +1953,9 @@ brewingStandSlotABit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **biteCounter**
 `
@@ -1855,8 +1969,9 @@ biteCounter(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **portalAxis**
 `
@@ -1870,8 +1985,9 @@ portalAxis(stateName: string): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **attachedBit**
 `
@@ -1885,8 +2001,9 @@ attachedBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **age**
 `
@@ -1900,8 +2017,9 @@ age(stateValue: number): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **ageBit**
 `
@@ -1915,6 +2033,7 @@ ageBit(stateValue: boolean): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 

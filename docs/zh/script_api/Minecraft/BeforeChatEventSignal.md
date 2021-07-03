@@ -43,5 +43,7 @@ Removes a callback from being called before new chat messages are sent.
 | **callback** | (arg: BeforeChatEvent) => undefined | - |
  
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

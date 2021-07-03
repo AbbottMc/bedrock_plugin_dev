@@ -46,7 +46,9 @@ Creates the default [*Minecraft.BlockPermutation*](../Minecraft/BlockPermutation
 
 Returns [*BlockPermutation*](BlockPermutation.md) - Returns created permutation.
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### 示例
 ##### ***place_bottom_stone_slab.js***

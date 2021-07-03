@@ -56,7 +56,9 @@ getBlockData(): BlockPermutation
 
 Returns [*BlockPermutation*](BlockPermutation.md) - Additional block configuration data that describes the block.
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **getComponent**
 `
@@ -66,7 +68,9 @@ getComponent(): any
 
 Returns *any*
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **getLocation**
 `
@@ -76,7 +80,9 @@ getLocation(): BlockLocation
 
 Returns [*BlockLocation*](BlockLocation.md) - Coordinates of the specified block.
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 ### **getTags**
 `
 getTags(): any[]
@@ -178,6 +184,7 @@ Sets the waterlogged state of the block.
 | **setWaterlogged** | *boolean* | If set to true, and if the block can be waterlogged, then the block becomes waterlogged. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 

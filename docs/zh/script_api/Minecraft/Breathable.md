@@ -73,5 +73,7 @@ Sets the current air supply of the entity.
 | **value** | *number* | New air supply for the entity. |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

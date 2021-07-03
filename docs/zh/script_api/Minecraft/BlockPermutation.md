@@ -53,7 +53,9 @@ Gets a property for the permutation.
 
 Returns *any* - Returns the property if the permutation has it, else `null`.
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***place_bottom_stone_slab.js***
@@ -90,7 +92,9 @@ getType(): BlockType
 
 Returns [*BlockType*](BlockType.md) - The [*Minecraft.BlockType*](../Minecraft/BlockType.md) that the permutation has.
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **hasTag**
 `

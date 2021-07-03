@@ -38,7 +38,9 @@ Leashes this entity to another entity.
 | **leashHolder** | [*Entity*](Entity.md) | The entity to leash this entity to. |
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **unleash**
 `
@@ -48,5 +50,7 @@ unleash(): void
 Unleashes this entity if it is leashed to another entity.
 
 
-::: warning 警告 此函数可抛出错误 :::
+::: warning 注意
+此函数可抛出错误
+:::
 

@@ -79,8 +79,9 @@ Tests that a block has a particular state value at the specified location. If it
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***testIfButtonNotPressed.js***
@@ -101,8 +102,9 @@ Tests that a block of the specified type is not present at the specified locatio
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertBlockTypePresent**
 `
@@ -117,8 +119,9 @@ Tests that a block of the specified type is present at the specified location. I
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertCanReachLocation**
 `
@@ -133,8 +136,9 @@ assertCanReachLocation(mob: Minecraft.Entity, location: Minecraft.BlockLocation,
 | **canReach** | *boolean* | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assert**
 `
@@ -149,8 +153,9 @@ Tests that the condition specified in _condition_ is true. If not, an error with
 | **message** | *string* | Message that is passed if the _condition_ does not evaluate to true. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertContainerContains**
 `
@@ -165,8 +170,9 @@ Tests that a container (e.g., a chest) at the specified location contains a spec
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertContainerEmpty**
 `
@@ -180,8 +186,9 @@ Tests that a container (e.g., a chest) at the specified location is empty. If no
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityData**
 `
@@ -197,8 +204,9 @@ Tests that an entity (e.g., a skeleton) at the specified location has a particul
 | **callback** | (arg: Minecraft.Entity) => boolean | Callback function where facets of the selected entity can be tested for. If this callback function returns false or no entity with the specified identifier is found, an exception is thrown. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***villagerEffectTest.js***
@@ -227,8 +235,9 @@ Tests that an entity has a specific piece of armor equipped. If not, an error is
 | **hasArmor** | *boolean* | Whether or not the entity is expected to have the specified armor equipped. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***horseArmorTest.js***
@@ -251,8 +260,9 @@ Tests that an entity has a particular component. If not, an exception is thrown.
 | **hasComponent** | *boolean* | Determines whether to test that the component exists, or does not. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***sheepShearedTest.js***
@@ -272,8 +282,9 @@ Tests that a particular entity is still present and alive within the GameTest ar
 | **entity** | [*Minecraft.Entity*](../Minecraft/Entity.md) | Specific entity to test for. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityNotPresent**
 `
@@ -288,8 +299,9 @@ Tests that an entity of a specified type is not present at a specified location.
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityNotPresentInArea**
 `
@@ -303,8 +315,9 @@ Tests that an entity of a specified type is not present within the GameTest area
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityNotTouching**
 `
@@ -319,8 +332,9 @@ Tests that an entity of a specified type is not touching or connected to another
 | **position** | [*Minecraft.Location*](../Minecraft/Location.md) | Location of the entity to test for. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityPresent**
 `
@@ -335,8 +349,9 @@ Tests that an entity of a specified type is present at a particular location. If
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityPresentInArea**
 `
@@ -350,8 +365,9 @@ Tests that an entity of a specified type is present within the GameTest area. If
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertEntityTouching**
 `
@@ -366,8 +382,9 @@ Tests that an entity of a specified type is touching or connected to another ent
 | **position** | [*Minecraft.Location*](../Minecraft/Location.md) | Location of the entity to test for. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertIsWaterlogged**
 `
@@ -382,8 +399,9 @@ Tests that a block at a location contains water in addition to another block typ
 | **isWaterlogged** | *boolean* | Whether not not the block at _position_ is expected to be waterlogged. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertItemEntityCountIs**
 `
@@ -400,8 +418,9 @@ Tests that items of a particular type and count are present within an area. If n
 | **count** | *number* | Number of items, at minimum, to look and test for. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***findFeathers.js***
@@ -423,8 +442,9 @@ Tests that a particular item entity is not present at a particular location. If 
 | **searchDistance** | *number* | Radius in blocks to look for the item entity. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertItemEntityPresent**
 `
@@ -440,8 +460,9 @@ Tests that a particular item entity is present at a particular location. If not,
 | **searchDistance** | *number* | Radius in blocks to look for the item entity. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **assertRedstonePower**
 `
@@ -456,8 +477,9 @@ Tests that Redstone power at a particular location matches a particular value. I
 | **power** | *number* | Expected power level. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **fail**
 `
@@ -471,8 +493,9 @@ Marks the current test as a failure case.
 | **errorMessage** | *string* | Error message summarizing the failure condition. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **failIf**
 `
@@ -486,8 +509,9 @@ Runs the given callback. If the callback does not throw an exception, the test i
 | **callback** | () => undefined | Callback function that runs. If the function runs successfully, the test is marked as a failure. Typically, this function will have .assertXyz method calls within it. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **getBlock**
 `
@@ -502,8 +526,9 @@ Gets a block at the specified block location.
 
 Returns [*Minecraft.Block*](../Minecraft/Block.md)
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **killAllEntities**
 `
@@ -513,8 +538,9 @@ killAllEntities(): void
 Kills all entities within the GameTest structure.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **pressButton**
 `
@@ -543,8 +569,9 @@ Displays the specified message to all players.
 | **text** | *string* | Message to display. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **pullLever**
 `
@@ -574,8 +601,9 @@ Sends a Redstone pulse at a particular location by creating a temporary Redstone
 | **duration** | *number* | Number of ticks to pulse Redstone. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **relativeLocation**
 `
@@ -590,8 +618,9 @@ From a BlockLocation, returns a new BlockLocation with coordinates relative to t
 
 Returns [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) - A location relative to the GameTest command block.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **runAfterDelay**
 `
@@ -606,8 +635,9 @@ Runs a specific callback after a specified delay of ticks
 | **callback** | () => undefined | Callback function to execute. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **runAtTickTime**
 `
@@ -622,8 +652,9 @@ Runs the given callback after a delay of _tick_ ticks from the start of the Game
 | **callback** | () => undefined | Callback function to execute. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **setBlockPermutation**
 `
@@ -638,8 +669,9 @@ Sets a block to a particular configuration (a BlockPermutation) at the specified
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | Location of the block to set. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **setBlockType**
 `
@@ -654,8 +686,9 @@ Sets a block to a particular type at the specified block location.
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **setTntFuse**
 `
@@ -670,8 +703,9 @@ Sets the fuse of an explodable entity.
 | **fuseLength** | *number* | Length of time, in ticks, before the entity explodes. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **spawn**
 `
@@ -687,8 +721,9 @@ Spawns an entity at a location.
 
 Returns [*Minecraft.Entity*](../Minecraft/Entity.md) - The spawned entity. If the entity cannot be spawned, returns undefined.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***spawnAdultPig.js***
@@ -710,8 +745,9 @@ Spawns an item entity at a specified location.
 
 Returns [*Minecraft.Entity*](../Minecraft/Entity.md)
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 #### Examples
 ##### ***spawnEmeralds.js***
@@ -737,8 +773,9 @@ Spawns an entity at a location without any AI behaviors. This method is frequent
 
 Returns [*Minecraft.Entity*](../Minecraft/Entity.md)
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **startSequence**
 `
@@ -758,8 +795,9 @@ succeed(): void
 Marks the current test as a success case.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedIf**
 `
@@ -773,8 +811,9 @@ Runs the given callback. If the callback does not throw an exception, the test i
 | **callback** | () => undefined | Callback function that runs. If the function runs successfully, the test is marked as a success. Typically, this function will have .assertXyz method calls within it. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedOnTick**
 `
@@ -788,8 +827,9 @@ Marks the test as a success at the specified tick.
 | **tick** | *number* | Tick after the start of the GameTest to mark the test as successful. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedOnTickWhen**
 `
@@ -804,8 +844,9 @@ Runs the given callback at _tick_ ticks after the start of the test. If the call
 | **callback** | () => undefined | Callback function that runs. If the function runs successfully, the test is marked as a success. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedWhen**
 `
@@ -819,8 +860,9 @@ Runs the given callback every tick. When the callback successfully executes, the
 | **callback** | () => undefined | Testing callback function that runs. If the function runs successfully, the test is marked as a success. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedWhenBlockTypePresent**
 `
@@ -835,8 +877,9 @@ Tests for the presence of a block of a particular type on every tick. When the s
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedWhenEntityHasComponent**
 `
@@ -853,8 +896,9 @@ Tests for the presence of a component on every tick. When the specified componen
 | **hasComponent** | *boolean* | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedWhenEntityNotPresent**
 `
@@ -869,8 +913,9 @@ Tests every tick and marks the test as a success when a particular entity is not
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **succeedWhenEntityPresent**
 `
@@ -885,8 +930,9 @@ Tests for the presence of an entity on every tick. When an entity of the specifi
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **walkTo**
 `
@@ -902,8 +948,9 @@ Forces an entity to walk to a particular location. Usually used in conjunction w
 | **speedModifier** | *number* | Adjustable modifier to the mob's walking speed. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
 
 ### **worldLocation**
 `
@@ -918,5 +965,6 @@ From a BlockLocation with coordinates relative to the GameTest structure block, 
 
 Returns [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) - An absolute location relative to the GameTest command block.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 注意
+此函数可抛出错误
+:::
