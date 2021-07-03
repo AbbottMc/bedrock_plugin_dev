@@ -12,7 +12,7 @@ description: Contents of the Minecraft.Tameable class.
 :::
 Defines the rules for a mob to be tamed by the player.
 
-## Properties
+## 属性
 ### **id** - `string`
 Identifier of this component. Should always be minecraft:tameable.
 
@@ -30,7 +30,7 @@ Event to run when this entity becomes tamed.
 
 
 
-## Methods
+## 方法
 - [tame](#tame)
   
 ### **tame**
@@ -42,6 +42,5 @@ Tames this entity.
 
 Returns *boolean* - Returns true if the entity was tamed.
 
-> [!WARNING]
-> This function can throw errors.
 
+::: warning 警告 此函数可抛出错误 :::
