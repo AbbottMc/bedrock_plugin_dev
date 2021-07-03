@@ -58,7 +58,7 @@ List of blocks this entity can't breathe in.
 
 
 
-## Methods
+## 方法
 - [setAirSupply](#setairsupply)
   
 ### **setAirSupply**
@@ -73,6 +73,5 @@ Sets the current air supply of the entity.
 | **value** | *number* | New air supply for the entity. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
