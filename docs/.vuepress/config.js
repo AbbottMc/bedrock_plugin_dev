@@ -130,7 +130,7 @@ module.exports = {
               "title": "关于",
               "collapsable": false,
               "sidebarDepth": 1,
-              "path": "README.md"
+              "path": "Description.md"
             },
             {
               "title": "贡献者",
