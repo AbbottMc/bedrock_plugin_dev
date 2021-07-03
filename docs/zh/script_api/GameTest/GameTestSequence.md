@@ -86,8 +86,7 @@ thenFail(errorMessage: string): void
 thenIdle(delayTicks: number): GameTestSequence
 `
 
-Idles the GameTest sequence for the specified delayTicks.
-指定延时游戏刻，在延时中Gametest序列不执行。[!未定]
+使GameTest序列延迟执行，延迟时长为指定的游戏刻
 #### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
