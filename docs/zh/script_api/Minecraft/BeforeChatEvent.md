@@ -12,25 +12,25 @@ description: Contents of the Minecraft.BeforeChatEvent class.
 :::
 玩家信息被发出前触发的事件（信息被编辑完成，还未被广播到所有玩家时）
 
-## Properties
+## 属性
 ### **message** - `string`
-Message that is being broadcast. In a beforeChat event handler, _message_ can be updated with edits before the message is displayed to players.
+即将被发出的信息。在BeforeChatEvent中，__message__可以被编辑，这样将修改所有玩家看到的信息。
 
 
 ### **sender** - `Player`
-Player that sent the chat message.
+发送信息的人
 
 
 ### **targets** - `Player[]`
-List of players that will receive this message.
+所有将会看到信息的人
 
 
 ### **sendToTargets** - `boolean`
-If true, this message is directly targeted to one or more players (i.e., is not broadcast.)
+如果值为true，将会把信息发送给指定玩家（即不广播给所有玩家）
 
 
 ### **cancel** - `boolean`
-If set to true in a beforeChat event handler, this message is not broadcast out.
+如果设置为true，信息将不会被广播（取消发送）
 
 
 
