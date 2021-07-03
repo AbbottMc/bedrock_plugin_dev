@@ -6,31 +6,32 @@ ms.prod: gaming
 title: Minecraft.Ageable Class
 description: Contents of the Minecraft.Ageable class.
 ---
-# Ageable Class
+# Ageable 类
+
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Adds a timer for the entity to grow up. It can be accelerated by giving the entity the items it likes as defined by feedItems.
 
-## Properties
+为实体的成长添加计时器。它可以被类如实体喜欢的feedItems/食物加速
+
+## 属性
+
 ### **id** - `string`
-Identifier of this component. Should always be minecraft:ageable.
 
+此组件的ID，应为minecraft:ageable
 
 ### **duration** - `number`
-Amount of time before the entity grows up, -1 for always a baby.
 
+实体成长所需要的时间，-1为不会成长的baby
 
 ### **feedItems** - `EntityDefinitionFeedItem[]`
-List of items that can be fed to the entity. Includes 'item' for the item name and 'growth' to define how much time it grows up by.
 
+能够给实体投喂的物品列表，包括用于物品名称的'item'和决定实体几次能够成长中的'growth'
 
 ### **dropItems** - `any[]`
-List of items that the entity drops when it grows up.
 
+实体成长后的掉落物列表
 
 ### **growUp** - `Trigger`
-Event to run when this entity grows up.
 
-
-
+实体成长后要触发的事件
