@@ -134,12 +134,11 @@ console.log(`Block is stone: ${block.hasTag("stone")}`);
 
 ```
 ### **setPermutation**
->此方法的翻译有待商讨
 
 `
 setPermutation(permutation: BlockPermutation): void
 `
-设置维度中方块的类型
+置换维度中方块的类型
 .
 #### 实参列表
 | 参数| 类型 | 描述 |
@@ -153,7 +152,7 @@ setPermutation(permutation: BlockPermutation): void
 ```javascript
 import { World, BlockTypes, BlockProperties, BlockLocation } from "Minecraft";
 
-// 创建方块类型
+// 创建方块置换
 let bottomStoneSlab = BlockTypes.stoneSlab.createDefaultBlockPermutation();
 bottomStoneSlab.getProperty(BlockProperties.stoneSlabType).value = "stone_brick";
 bottomStoneSlab.getProperty(BlockProperties.topSlotBit).value = false;
@@ -161,7 +160,7 @@ bottomStoneSlab.getProperty(BlockProperties.topSlotBit).value = false;
 // 寻找方块
 const block = World.getDimension("overworld").getBlock(new BlockLocation(1, 2, 3));
 
-// 设置方块类型
+// 设置方块置换
 block.setPermutation(bottomStoneSlab);
 
 ```
