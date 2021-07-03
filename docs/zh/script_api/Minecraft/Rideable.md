@@ -12,7 +12,7 @@ description: Contents of the Minecraft.Rideable class.
 :::
 When added, this component adds the capability that an entity can be ridden by another entity.
 
-## Properties
+## 属性
 ### **id** - `string`
 Identifier of this component. Should always be minecraft:rideable.
 
@@ -50,7 +50,7 @@ The list of positions and number of riders for each position for entities riding
 
 
 
-## Methods
+## 方法
 - [addRider](#addrider)
 - [ejectRider](#ejectrider)
 - [ejectRiders](#ejectriders)
@@ -61,15 +61,14 @@ addRider(rider: Entity): boolean
 `
 
 Adds an entity to this entity as a rider.
-#### Arguments
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **rider** | [*Entity*](Entity.md) | Entity that will become the rider of this entity. |
 
 Returns *boolean* - True if the rider entity was successfully added.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **ejectRider**
 `
@@ -83,8 +82,7 @@ Ejects the specified rider of this entity.
 | **rider** | [*Entity*](Entity.md) | Entity that should be ejected from this entity. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **ejectRiders**
 `
@@ -94,6 +92,5 @@ ejectRiders(): void
 Ejects all riders of this entity.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
