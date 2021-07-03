@@ -26,7 +26,7 @@ description: Contents of the Minecraft.Movement class.
 
 
 
-## 方法
+## Methods
 - [setCurrent](#setcurrent)
 - [resetToMinValue](#resettominvalue)
 - [resetToMaxValue](#resettomaxvalue)
@@ -37,41 +37,42 @@ description: Contents of the Minecraft.Movement class.
 setCurrent(): void
 `
 
-设置实体默认移动速度的当前值
+Sets the current value of default movement speed for the entity.
 
 
-> [!警告]
-> 此函数可能会引发错误。
+> [!WARNING]
+> This function can throw errors.
 
 ### **resetToMinValue**
 `
 resetToMinValue(): void
 `
 
-将默认移动速度重置为最小值
+Resets the default movement speed to the minimum value.
 
 
-> [!警告]
-> 此函数可能会引发错误.
+> [!WARNING]
+> This function can throw errors.
 
 ### **resetToMaxValue**
 `
 resetToMaxValue(): void
 `
 
-将默认移动速度重置为最大值
+Resets the default movement speed to the maximum value for the entity.
 
 
-> [!警告]
-> 此函数可能会引发错误。
+> [!WARNING]
+> This function can throw errors.
 
 ### **resetToDefaultValue**
 `
 resetToDefaultValue(): void
 `
 
-将默认移动速度重置为初始默认值
+Resets the current default movement speed value for the entity to the default value.
 
 
-> [!警告]
-> 此函数可能会引发错误。
+> [!WARNING]
+> This function can throw errors.
+
