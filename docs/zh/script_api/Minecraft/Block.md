@@ -134,6 +134,7 @@ console.log(`Block is stone: ${block.hasTag("stone")}`);
 
 ```
 ### **setPermutation**
+>此方法的翻译有待商讨
 `
 setPermutation(permutation: BlockPermutation): void
 `
@@ -177,11 +178,11 @@ setType(): void
 setWaterlogged(setWaterlogged: boolean): void
 `
 
-Sets the waterlogged state of the block.
-#### Arguments
-| Param | Type | Description |
+设置方块的含水状态
+#### 实参列表
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **setWaterlogged** | *boolean* | If set to true, and if the block can be waterlogged, then the block becomes waterlogged. |
+| **setWaterlogged** | *boolean* |如果设置为true，并且方块可含水，那么方块将会被设置位含水状态 |
 
 
 ::: warning 注意
