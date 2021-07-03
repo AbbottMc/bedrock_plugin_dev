@@ -41,7 +41,7 @@ Removes a callback from being called before new chat messages are sent.
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **callback** | (arg: BeforeChatEvent) => undefined | - |
-
+ 
 
 ::: warning 警告 此函数可抛出错误 :::
 
