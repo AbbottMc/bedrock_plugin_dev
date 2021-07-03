@@ -89,7 +89,7 @@ getTags(): any[]
 `
 
 
-Returns *any*[] - The list of tags that the block has.
+返回 *any*[] - 此方块拥有的所有标签
 
 
 ### **isEmpty**
@@ -98,7 +98,7 @@ isEmpty(): boolean
 `
 
 
-Returns *boolean* - Whether this particular block is empty (air).
+返回 *boolean* - 该方块是否为空（空气）
 
 
 ### **isWaterlogged**
@@ -107,7 +107,7 @@ isWaterlogged(): boolean
 `
 
 
-Returns *boolean* - Whether this particular block is in a waterlogged state.
+返回 *boolean* - 此方块是否处于含水状态
 
 
 ### **hasTag**
@@ -115,17 +115,17 @@ Returns *boolean* - Whether this particular block is in a waterlogged state.
 hasTag(): boolean
 `
 
-Checks to see if the permutation of this block has a specific tag.
+检测该方块是否含有特殊标签
 
-Returns *boolean* - Returns `true` if the permutation of this block has the tag, else `false`.
+返回 *boolean* - 如果此方块含有特殊标签，返回true，否则返回false
 
 
-#### Examples
+#### 例
 ##### ***check_block_tags.js***
 ```javascript
 import { World, BlockTypes, BlockLocation } from "Minecraft";
 
-// Fetch the block
+// 寻找一个方块
 const block = World.getDimension("overworld").getBlock(new BlockLocation(1, 2, 3));
 
 console.log(`Block is dirt: ${block.hasTag("dirt")}`);
@@ -137,10 +137,10 @@ console.log(`Block is stone: ${block.hasTag("stone")}`);
 `
 setPermutation(permutation: BlockPermutation): void
 `
-
-Sets the block in the dimension to the state of the permutation.
-#### Arguments
-| Param | Type | Description |
+设置维度中方块的类型
+.
+#### 实参列表
+| 参数| 类型 | 描述 |
 | :--- | :--- | :---: |
 | **permutation** | [*BlockPermutation*](BlockPermutation.md) | - |
 
@@ -151,15 +151,15 @@ Sets the block in the dimension to the state of the permutation.
 ```javascript
 import { World, BlockTypes, BlockProperties, BlockLocation } from "Minecraft";
 
-// Create the permutation
+// 创建方块类型
 let bottomStoneSlab = BlockTypes.stoneSlab.createDefaultBlockPermutation();
 bottomStoneSlab.getProperty(BlockProperties.stoneSlabType).value = "stone_brick";
 bottomStoneSlab.getProperty(BlockProperties.topSlotBit).value = false;
 
-// Fetch the block
+// 寻找方块
 const block = World.getDimension("overworld").getBlock(new BlockLocation(1, 2, 3));
 
-// Set the permutation
+// 设置方块类型
 block.setPermutation(bottomStoneSlab);
 
 ```
@@ -168,7 +168,7 @@ block.setPermutation(bottomStoneSlab);
 setType(): void
 `
 
-Sets the type of block.
+设置方块类型
 
 
 
