@@ -13,7 +13,7 @@ description: Contents of the Minecraft.AddEffectEventSignal class.
 Manages callbacks that are connected to when an effect is added to an entity.
 
 
-## Methods
+## 方法
 - [subscribe](#subscribe)
 - [unsubscribe](#unsubscribe)
   
@@ -43,6 +43,5 @@ Removes a callback from being called when an effect is added to an entity.
 | **callback** | (arg: ActorAddEffectEvent) => undefined | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
