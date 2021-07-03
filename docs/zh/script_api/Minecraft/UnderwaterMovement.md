@@ -12,7 +12,7 @@ description: Contents of the Minecraft.UnderwaterMovement class.
 :::
 Defines the general movement speed underwater of this entity.
 
-## Properties
+## 属性
 ### **id** - `string`
 Identifier of this component. Should always be minecraft:underwater_movement.
 
@@ -26,7 +26,7 @@ Read-only. Returns the current value of movement speed underwater for the entity
 
 
 
-## Methods
+## 方法
 - [setCurrent](#setcurrent)
 - [resetToMinValue](#resettominvalue)
 - [resetToMaxValue](#resettomaxvalue)
@@ -40,8 +40,8 @@ setCurrent(): void
 Sets the current value of movement speed underwater for the entity.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
+
 
 ### **resetToMinValue**
 `
@@ -51,8 +51,7 @@ resetToMinValue(): void
 Resets the movement speed underwater to the minimum value as defined by the component state of this entity.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToMaxValue**
 `
@@ -62,8 +61,7 @@ resetToMaxValue(): void
 Resets the movement speed underwater to the maximum value for the entity, as determined by the set of components that are on the entity.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToDefaultValue**
 `
@@ -73,6 +71,4 @@ resetToDefaultValue(): void
 Resets the current movement speed underwater for the entity to the default value implied by the current component state of the entity.
 
 
-> [!WARNING]
-> This function can throw errors.
-
+::: warning 警告 此函数可抛出错误 :::
