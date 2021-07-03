@@ -63,8 +63,7 @@ module.exports = {
             {
               "title": "GameTest",
               "collapsable": true,
-              "path": "GameTest/GameTest.md",
-              "sidebarDepth": 2,
+              "path": "/zh/script_api/GameTest/",
               "children": [["GameTest/GameTestSequence.md", "GameTestSequence"],
                 ["GameTest/Helper.md", "Helper"], ["GameTest/RegistrationBuilder.md", "RegistrationBuilder"],
                 ["GameTest/Tags.md", "Tags"]]
@@ -72,8 +71,7 @@ module.exports = {
             {
               "title": "Minecraft",
               "collapsable": true,
-              "path": "Minecraft/Minecraft.md",
-              "sidebarDepth": 2,
+              "path": "/zh/script_api/Minecraft/",
               "children": [["Minecraft/ActivatePistonEvent.md", "ActivatePistonEvent"],
                 ["Minecraft/ActivatePistonEventSignal.md", "ActivatePistonEventSignal"],
                 ["Minecraft/ActorAddEffectEvent.md", "ActorAddEffectEvent"],
@@ -125,20 +123,20 @@ module.exports = {
                 ["Minecraft/Tameable.md", "Tameable"], ["Minecraft/Trigger.md", "Trigger"],
                 ["Minecraft/UnderwaterMovement.md", "UnderwaterMovement"],
                 ["Minecraft/WeatherChangedEvent.md", "WeatherChangedEvent"], ["Minecraft/World.md", "World"]]
-            },
-            {
-              "title": "关于",
-              "collapsable": false,
-              "sidebarDepth": 1,
-              "path": "Description.md"
-            },
-            {
-              "title": "贡献者",
-              "collapsable": false,
-              "sidebarDepth": 1,
-              "path": "Contributors.md"
             }
           ]
+        },
+        {
+          "title": "关于",
+          "collapsable": false,
+          "sidebarDepth": 1,
+          "path": "/zh/script_api/"
+        },
+        {
+          "title": "贡献者",
+          "collapsable": false,
+          "sidebarDepth": 1,
+          "path": "Contributors.md"
         }
       ]
     }

@@ -89,7 +89,7 @@ kill(): void
 
 
 ::: warning 注意
-此函数可能抛出错误
+此函数可抛出错误
 :::
 
 ### **getEffect**
@@ -107,7 +107,7 @@ getEffect(effectType: EffectType): Effect
 返回 [*Effect*](Effect.md)
 
 ::: warning 注意
-此函数可能抛出错误
+此函数可抛出错误
 :::
 
 ### **addEffect**
@@ -125,7 +125,7 @@ addEffect(effectType: EffectType, duration: number, amplifier: number): void
 
 
 ::: warning 注意
-此函数可能抛出错误
+此函数可抛出错误
 :::
 
 ### **triggerEvent**
@@ -141,6 +141,6 @@ triggerEvent(eventName: string): void
 
 
 ::: warning 注意
-此函数可能抛出错误
+此函数可抛出错误
 :::
 

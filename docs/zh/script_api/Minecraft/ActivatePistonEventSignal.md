@@ -58,6 +58,6 @@ unsubscribe(callback: (arg: ActivatePistonEvent) => undefined): void
 
 
 ::: warning 警告
-这个函数可以抛出错误
+此函数可抛出错误
 :::
 
