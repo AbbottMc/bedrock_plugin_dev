@@ -10,19 +10,19 @@ description: Contents of the Minecraft.Movement class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Defines the general movement speed of this entity
+
+定义此实体一般情况下的移动速度
 
 ## Properties
 ### **id** - `string`
-Identifier of this component. Should always be minecraft:movement.
+组件ID,应一直为minecraft:movement,不能改变。
 
 
 ### **value** - `number`
-Value for default movement speed as defined through entity components.
-
+通过实体组件定义的默认移动速度值。
 
 ### **current** - `number`
-Read-only. Returns the current value of default movement speed for the entity.
+只读属性,返回实体当前默认移动速度值。
 
 
 
