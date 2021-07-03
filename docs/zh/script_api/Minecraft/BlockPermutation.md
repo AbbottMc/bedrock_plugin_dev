@@ -6,14 +6,16 @@ ms.prod: gaming
 title: Minecraft.BlockPermutation Class
 description: Contents of the Minecraft.BlockPermutation class.
 ---
-# BlockPermutation Class -
+# BlockPermutation 类
 
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
 Contains the combination of type [*Minecraft.BlockType*](../Minecraft/BlockType.md) and properties (also sometimes called block state) which describe a block (but does not belong to a specific [*Minecraft.Block*](../Minecraft/Block.md)). This type was introduced as of version 1.17.10.21.
 
-## Methods
+包含[Minecraft.BlockType](../Minecraft/BlockType.md)类的集合与属性（通常被称方块状态），用于描述一个方块(但不属于特定的[Minecraft.Block](../Minecraft/Block.md)类)。此类在1.17.10.21出现
+
+## 方法
 
 - [clone](#clone)
 - [getAllProperties](#getallproperties)
@@ -26,50 +28,50 @@ Contains the combination of type [*Minecraft.BlockType*](../Minecraft/BlockType.
 
 `clone(): BlockPermutation`
 
-Creates a copy of this permutation.
+创建这个置换的拷贝
 
-Returns [*BlockPermutation*](BlockPermutation.md) - A copy of the permutation.
+返回 [*BlockPermutation*](BlockPermutation.md) - 拷贝副本
 
 ### **getAllProperties**
 
 `getAllProperties(): any[]`
 
-Returns *any*[] - Returns the list of all of the properties that the permutation has.
+返回 *any*[] - 返回置换里所有属性为一个列表
 
 ### **getProperty**
 
 `getProperty(propertyName: string): any`
 
-Gets a property for the permutation.
+获取置换的属性
 
-#### Arguments
+#### 实参列表
 
-| Param                  | Type       | Description |
-| :--------------------- | :--------- | :---------: |
-| **propertyName** | *string* |      -      |
+| 参数                   | 类型       | 描述 |
+| :--------------------- | :--------- | :--: |
+| **propertyName** | *string* |  -  |
 
-Returns *any* - Returns the property if the permutation has it, else `null`.
+返回 *any* - 返回置换中的属性, 没有则返回 `null`.
 
 ::: warning 注意
 此函数可抛出错误
 :::
 
-#### Examples
+#### 示例
 
 ##### ***place_bottom_stone_slab.js***
 
 ```javascript
 import { World, BlockTypes, BlockProperties, BlockLocation } from "Minecraft";
 
-// Create the permutation
+// 创建置换
 let bottomStoneSlab = BlockTypes.stoneSlab.createDefaultBlockPermutation();
 bottomStoneSlab.getProperty(BlockProperties.stoneSlabType).value = "stone_brick";
 bottomStoneSlab.getProperty(BlockProperties.topSlotBit).value = false;
 
-// Fetch the block
+// 获取方块
 const block = World.getDimension("overworld").getBlock(new BlockLocation(1, 2, 3));
 
-// Set the permutation
+// 设置置换
 block.setPermutation(bottomStoneSlab);
 
 ```
@@ -78,15 +80,15 @@ block.setPermutation(bottomStoneSlab);
 
 `getTags(): any[]`
 
-Creates a copy of the permutation.
+创建置换的拷贝
 
-Returns *any*[]
+返回 *any*[]
 
 ### **getType**
 
 `getType(): BlockType`
 
-Returns [*BlockType*](BlockType.md) - The [*Minecraft.BlockType*](../Minecraft/BlockType.md) that the permutation has.
+返回 [*BlockType*](BlockType.md) - 置换所含有的[*Minecraft.BlockType*](../Minecraft/BlockType.md)
 
 ::: warning 注意
 此函数可抛出错误
@@ -96,15 +98,15 @@ Returns [*BlockType*](BlockType.md) - The [*Minecraft.BlockType*](../Minecraft/B
 
 `hasTag(tag: string): boolean`
 
-Checks to see if the permutation has a specific tag.
+查询置换是否具有标签
 
-#### Arguments
+#### 实参列表
 
-| Param         | Type       | Description |
-| :------------ | :--------- | :---------: |
-| **tag** | *string* |      -      |
+| 参数          | 类型       | 描述 |
+| :------------ | :--------- | :--: |
+| **tag** | *string* |  -  |
 
-Returns *boolean* - Returns `true` if the permutation has the tag, else `false`.
+返回*boolean* - 如果置换含有tag,返回 `true` ,否则返回`false`
 
 #### 示例
 
@@ -113,7 +115,7 @@ Returns *boolean* - Returns `true` if the permutation has the tag, else `false`.
 ```javascript
 import { World, BlockTypes, BlockLocation } from "Minecraft";
 
-// Fetch the block
+// 获取方块
 const block = World.getDimension("overworld").getBlock(new BlockLocation(1, 2, 3));
 const blockPerm = block.getPermutation();
 
