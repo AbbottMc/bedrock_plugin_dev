@@ -11,23 +11,24 @@ description: Contents of the Minecraft.BlockLocation class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Contains the integer X, Y, Z coordinates for a block. For decimal locations useful for entities, items, and more, see [*Minecraft.Location*](../Minecraft/Location.md).
 
-## Properties
+包含方块的x y z整数坐标，如要对实体，物品等等使用小数，参见[*Minecraft.Location*](../Minecraft/Location.md).
+
+## 属性
 
 ### **x** - `number`
 
-The X coordinate.
+X整数坐标
 
 ### **y** - `number`
 
-The integer-based Y position.
+Y整数坐标
 
 ### **z** - `number`
 
-The integer-based Z position.
+z整数坐标
 
-## Methods
+## 方法
 
 - [constructor](#constructor)
 - [equals](#equals)
@@ -38,50 +39,50 @@ The integer-based Z position.
 
 `new BlockLocation(x: number, y: number, z: number)`
 
-#### Arguments
+#### 实参列表
 
-| Param       | Type       | Description |
-| :---------- | :--------- | :---------: |
-| **x** | *number* |      -      |
-| **y** | *number* |      -      |
-| **z** | *number* |      -      |
+| 参数        | 类型       | 描述 |
+| :---------- | :--------- | :--: |
+| **x** | *number* |  -  |
+| **y** | *number* |  -  |
+| **z** | *number* |  -  |
 
-Returns [*BlockLocation*](BlockLocation.md)
+返回 [*BlockLocation*](BlockLocation.md)
 
 ### **equals**
 
 `equals(other: BlockLocation): boolean`
 
-Compares this BlockLocation and another BlockLocation to one another.
+判断两个BlockLocation的坐标是否一致，返回布尔值
 
-#### Arguments
+#### 实参列表
 
-| Param           | Type                               |                      Description                      |
-| :-------------- | :--------------------------------- | :----------------------------------------------------: |
-| **other** | [*BlockLocation*](BlockLocation.md) | Other block location to compare this BlockLocation to. |
+| 参数            | 类型                               |                          描述                          |
+| :-------------- | :--------------------------------- | :-----------------------------------------------------: |
+| **other** | [*BlockLocation*](BlockLocation.md) | 要与此blocklocation坐标对比的另外一个blocklocation坐标. |
 
-Returns *boolean* - True if the two block locations are equal.
+如果两BlockLocation坐标相等，返回 `true`
 
 ### **offset**
 
 `offset(x: number, y: number, z: number): BlockLocation`
 
-Returns a block location using a position relative to this block location
+返回此坐标的相对位置坐标
 
-#### Arguments
+#### 实参列表
 
-| Param       | Type       |               Description               |
-| :---------- | :--------- | :--------------------------------------: |
-| **x** | *number* | X offset relative to this BlockLocation. |
-| **y** | *number* | Y offset relative to this BlockLocation. |
-| **z** | *number* | Z offset relative to this BlockLocation. |
+| 参数        | 类型       |    描述    |
+| :---------- | :--------- | :--------: |
+| **x** | *number* | X 相对坐标 |
+| **y** | *number* | Y 相对坐标 |
+| **z** | *number* | Z 相对坐标 |
 
-Returns [*BlockLocation*](BlockLocation.md) - BlockLocation that is positioned relative to this BlockLocation.
+返回[BlockLocation](BlockLocation.md)-相对位置坐标
 
 ### **above**
 
 `above(): BlockLocation`
 
-Returns a BlockLocation for a block above this BlockLocation (that is, y - 1).
+返回此坐标头上1格的一个BlockLocation坐标
 
-Returns [*BlockLocation*](BlockLocation.md)
+返回[BlockLocation](BlockLocation.md)
