@@ -11,9 +11,10 @@ description: Contents of the Minecraft.Entity class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Represents the state of an entity (a mob, the player, or other moving objects like Minecarts) in the world.
 
-## Properties
+涵盖世界中实体的状态（生物，玩家，移动的矿车等）
+
+## 属性
 
 ### **id** - `string`
 
@@ -25,7 +26,7 @@ Represents the state of an entity (a mob, the player, or other moving objects li
 
 ### **isSneaking** - `boolean`
 
-## Methods
+## 方法
 
 - [hasComponent](#hascomponent)
 - [getComponent](#getcomponent)
@@ -39,82 +40,88 @@ Represents the state of an entity (a mob, the player, or other moving objects li
 
 `hasComponent(componentId: string): boolean`
 
-Returns true if the specified component is present on this entity.
+如果实体内指定组件存在，则返回true
 
-#### Arguments
+#### 实参列表
 
-| Param                 | Type       |                                                               Description                                                               |
-| :-------------------- | :--------- | :-------------------------------------------------------------------------------------------------------------------------------------: |
-| **componentId** | *string* | The identifier of the component (e.g., 'minecraft:rideable') to retrieve. If no namespace prefix is specified, 'minecraft:' is assumed. |
+| 参数                  | 类型       |                                               描述                                               |
+| :-------------------- | :--------- | :-----------------------------------------------------------------------------------------------: |
+| **componentId** | *string* | 组件的ID，如果未指定组件的命名空间，则假定附有minecraft:前缀，如果没有找到指定组件，返回undefined |
 
-Returns *boolean*
+返回 *boolean*
 
 ### **getComponent**
 
 `getComponent(componentId: string): any`
 
-Gets a component (that represents additional capabilities) for an entity.
+获取实体的某个具有额外功能的组件
 
-#### Arguments
+#### 实参列表
 
-| Param                 | Type       |                                                                                                  Description                                                                                                  |
-| :-------------------- | :--------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **componentId** | *string* | The identifier of the component (e.g., 'minecraft:rideable') to retrieve. If no namespace prefix is specified, 'minecraft:' is assumed. If the component is not present on the entity, undefined is returned. |
+| 参数                  | 类型       |                                               描述                                               |
+| :-------------------- | :--------- | :-----------------------------------------------------------------------------------------------: |
+| **componentId** | *string* | 组件的ID，如果未指定组件的命名空间，则假定附有minecraft:前缀，如果没有找到指定组件，返回undefined |
 
-Returns *any*
+返回 *any*
 
 ### **getComponents**
 
 `getComponents(): any[]`
 
-Returns all components that are both present on this entity and supported by the API.
+返回实体内所有支持此API的组件
 
-Returns *any*[]
+返回 *any*[]
 
 ### **kill**
 
 `kill(): void`
 
-Kills this entity. The entity will drop loot as normal.
+杀死实体。实体仍会掉落战利品/掉落物
 
-> [!WARNING]
-> This function can throw errors.
+:::warning 注意
+此函数可能会抛出错误
+
+:::
 
 ### **getEffect**
 
 `getEffect(effectType: EffectType): Effect`
 
-Returns the effect for the specified EffectType on the entity, or undefined if the effect is not present.
+返回EffectType类型的实体效果，如果没有则返回undefined
 
-#### Arguments
+#### 实参列表
 
-| Param                | Type                         | Description |
-| :------------------- | :--------------------------- | :---------: |
-| **effectType** | [*EffectType*](EffectType.md) |      -      |
+| 参数                 | 类型                         | 描述 |
+| :------------------- | :--------------------------- | :--: |
+| **effectType** | [*EffectType*](EffectType.md) |  -  |
 
-Returns [*Effect*](Effect.md) - Effect object for the specified effect, or undefined if the effect is not present.
+返回 [*Effect*](Effect.md) - Effect 对象对应具体的效果，或者表示不存在的undefined
 
-> [!WARNING]
-> This function can throw errors.
+:::warning 注意
+此函数可能会抛出错误
+
+:::
 
 ### **addEffect**
 
 `addEffect(effectType: EffectType, duration: number, amplifier: number): void`
 
-Adds an effect, like poison, to the entity.
+对实体添加例如中毒...的效果
 
-#### Arguments
+#### 实参列表
 
-| Param                | Type                         |                     Description                     |
-| :------------------- | :--------------------------- | :--------------------------------------------------: |
-| **effectType** | [*EffectType*](EffectType.md) |         Type of effect to add to the entity.         |
-| **duration**   | *number*                   | Amount of time, in seconds, for the effect to apply. |
-| **amplifier**  | *number*                   |    Optional amplification of the effect to apply.    |
+| 参数                 | 类型                         |         描述         |
+| :------------------- | :--------------------------- | :------------------: |
+| **effectType** | [*EffectType*](EffectType.md) | 对实体添加的效果类型 |
+| **duration**   | *number*                   |       持续时间       |
+| **amplifier**  | *number*                   |    持续等级/强度    |
 
-> [!WARNING]
-> This function can throw errors.
+:::warning 注意
+此函数可能会抛出错误
 
-#### Examples
+:::
+
+#### 实例
 
 ##### ***addEffect.js***
 
@@ -125,20 +132,22 @@ const villager = test.spawn(villagerId, villagerLoc);
 const duration = 20;
 
 villager.addEffect(Effects.poison, duration, 1);
-
+//此处代码未订阅至世界事件，请自行添加
 ```
 
 ### **triggerEvent**
 
 `triggerEvent(eventName: string): void`
 
-Triggers an entity type event. For every entity, a number of events are defined in an entities' definition for key entity behaviors; for example, creepers have a minecraft:start_exploding type event.
+触发实体类事件，对于每个实体，在它们的关键实体行为中都定义了许多事件，例如苦力怕有minecraft:start_exploding类型的事件
 
-#### Arguments
+#### 实参列表
 
-| Param               | Type       |                                            Description                                            |
-| :------------------ | :--------- | :-----------------------------------------------------------------------------------------------: |
-| **eventName** | *string* | Name of the entity type event to trigger. If a namespace is not specified, minecraft: is assumed. |
+| 参数                | 类型       |                              描述                              |
+| :------------------ | :--------- | :------------------------------------------------------------: |
+| **eventName** | *string* | 要触发的实体事件名称，如未定义命名空间，则假定有minecraft:前缀 |
 
-> [!WARNING]
-> This function can throw errors.
+:::warning 注意
+此函数可能会抛出错误
+
+:::
