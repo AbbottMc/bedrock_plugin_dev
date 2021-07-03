@@ -40,7 +40,7 @@ setCurrent(): void
 设置实体默认移动速度的当前值
 
 
-::: warning 警告 此函数可能会引发错误。:::
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToMinValue**
 `
@@ -50,7 +50,7 @@ resetToMinValue(): void
 将默认移动速度重置为最小值
 
 
-::: warning 警告 此函数可能会引发错误。:::
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToMaxValue**
 `
@@ -60,7 +60,7 @@ resetToMaxValue(): void
 将默认移动速度重置为最大值
 
 
-::: warning 警告 此函数可能会引发错误。:::
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToDefaultValue**
 `
@@ -70,4 +70,4 @@ resetToDefaultValue(): void
 将默认移动速度重置为初始默认值
 
 
-::: warning 警告 此函数可能会引发错误。 :::
+::: warning 警告 此函数可抛出错误 :::
