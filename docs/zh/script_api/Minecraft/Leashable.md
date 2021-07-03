@@ -22,7 +22,7 @@ Distance in blocks at which the 'spring' effect starts acting to keep this entit
 
 
 
-## Methods
+## 方法
 - [leash](#leash)
 - [unleash](#unleash)
   
@@ -38,8 +38,7 @@ Leashes this entity to another entity.
 | **leashHolder** | [*Entity*](Entity.md) | The entity to leash this entity to. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **unleash**
 `
@@ -49,6 +48,5 @@ unleash(): void
 Unleashes this entity if it is leashed to another entity.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
