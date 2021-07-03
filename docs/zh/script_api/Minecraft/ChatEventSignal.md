@@ -7,8 +7,9 @@ title: Minecraft.ChatEventSignal Class
 description: Contents of the Minecraft.ChatEventSignal class.
 ---
 # ChatEventSignal 类
->[!IMPORTANT]
->These APIs are experimental as part of GameTest Framework. As with all experiments, you may see changes in functionality in updated Minecraft versions. Check the Minecraft Changelog for details on any changes to GameTest Framework APIs.
+::: warning 注意
+这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
+:::
 
 管理聊天信息发送时的相关回调
 
@@ -22,13 +23,13 @@ description: Contents of the Minecraft.ChatEventSignal class.
 subscribe(callback: (arg: ChatEvent) => undefined): (arg: ChatEvent) => undefined
 `
 
-添加一个会在聊天信息被发送时被回调的函数
-#### 实参
+添加一个会在玩家发送聊天信息时被回调的函数
+#### 实参列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ChatEvent) => undefined | - |
 
-返回值类型 (arg: ChatEvent) => undefined
+返回 (arg: ChatEvent) => undefined
 
 
 #### 实例
@@ -51,12 +52,13 @@ const chatCallback = World.events.beforeChat.subscribe((eventData) => {
 unsubscribe(callback: (arg: ChatEvent) => undefined): void
 `
 
-移除一个会在聊天信息被发送时被回调的函数
-#### 实参
+移除一个会在玩家发送聊天信息时被回调的函数
+#### 实参列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ChatEvent) => undefined | - |
 
 
-> [!WARNING]
-> 这个函数可能会抛出异常
+::: warning 注意
+这个函数可能会抛出异常
+:::

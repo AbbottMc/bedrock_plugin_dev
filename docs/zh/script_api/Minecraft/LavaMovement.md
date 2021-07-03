@@ -7,9 +7,9 @@ title: Minecraft.LavaMovement Class
 description: Contents of the Minecraft.LavaMovement class.
 ---
 # LavaMovement Class
->[!IMPORTANT]
->These APIs are experimental as part of GameTest Framework. As with all experiments, you may see changes in functionality in updated Minecraft versions. Check the Minecraft Changelog for details on any changes to GameTest Framework APIs.
-
+::: warning 注意
+这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
+:::
 Defines the base movement speed in lava of this entity.
 
 ## Properties
