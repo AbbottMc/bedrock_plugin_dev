@@ -12,13 +12,13 @@ description: Contents of the Minecraft.MountTaming class.
 :::
 Contains options for taming a rideable entity based on the entity that mounts it.
 
-## Properties
+## 属性
 ### **id** - `string`
 Identifier of this component. Should always be minecraft:mount_taming.
 
 
 
-## Methods
+## 方法
 - [setTamed](#settamed)
   
 ### **setTamed**
@@ -33,6 +33,5 @@ Sets this rideable entity as tamed.
 | **showParticles** | *boolean* | Whether to show effect particles when this entity is tamed. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
