@@ -25,7 +25,7 @@ description: Contents of the Minecraft.AddEffectEventSignal class.
 
 Adds a callback that will be called when an effect is added to an entity.
 
-#### Arguments
+#### 实参列表
 
 | Param              | Type                                    | Description |
 | :----------------- | :-------------------------------------- | :---------: |
@@ -39,7 +39,7 @@ Returns (arg: ActorAddEffectEvent) => undefined
 
 Removes a callback from being called when an effect is added to an entity.
 
-#### Arguments
+#### 实参列表
 
 | Param              | Type                                    | Description |
 | :----------------- | :-------------------------------------- | :---------: |
