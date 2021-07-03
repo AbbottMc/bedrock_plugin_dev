@@ -13,7 +13,7 @@ description: Contents of the Minecraft.BeforeChatEvent class.
 
 一个在玩家发送消息时触发的事件
 
-## Properties
+## 属性
 ### **message** - `string`
 要进行广播的消息。在beforeChat事件处理器中,_message_可以在对玩家显示前进行编辑。
 
