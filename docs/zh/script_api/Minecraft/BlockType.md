@@ -13,7 +13,7 @@ description: Contents of the Minecraft.BlockType class.
 The type (or template) of a block. Does not contain permutation data (state) other than the type of block it represents. This type was introduced as of version 1.17.10.21.
 
 
-## Methods
+## 方法
 - [getName](#getname)
 - [canBeWaterlogged](#canbewaterlogged)
 - [createDefaultBlockPermutation](#createdefaultblockpermutation)
@@ -46,10 +46,9 @@ Creates the default [*Minecraft.BlockPermutation*](../Minecraft/BlockPermutation
 
 Returns [*BlockPermutation*](BlockPermutation.md) - Returns created permutation.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
-#### Examples
+#### 示例
 ##### ***place_bottom_stone_slab.js***
 ```javascript
 import { World, BlockTypes, BlockProperties, BlockLocation } from "Minecraft";
