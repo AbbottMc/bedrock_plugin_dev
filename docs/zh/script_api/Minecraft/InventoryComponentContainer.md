@@ -12,7 +12,7 @@ description: Contents of the Minecraft.InventoryComponentContainer class.
 :::
 Represents a container that can hold stacks of items. Used for entities like Players, Chest Minecarts, Llamas, and more.
 
-## Properties
+## 属性
 ### **size** - `number`
 Represents the size of the container. For example, a standard single-block chest has a size of 27, for the 27 slots in their inventory.
 
@@ -22,7 +22,7 @@ The number of empty slots in the container.
 
 
 
-## Methods
+## 方法
 - [setItem](#setitem)
 - [getItem](#getitem)
 - [addItem](#additem)
@@ -42,8 +42,7 @@ Sets an item stack within a particular slot.
 | **itemStack** | [*ItemStack*](ItemStack.md) | Stack of items to place within the specified slot. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **getItem**
 `
@@ -58,8 +57,7 @@ Gets the item stack for the set of items at the specified slot. If the slot is e
 
 Returns [*ItemStack*](ItemStack.md)
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 #### Examples
 ##### ***getItem.js***
@@ -81,8 +79,7 @@ Adds an item to the specified container. Items will be placed in the first avail
 | **itemStack** | [*ItemStack*](ItemStack.md) | The stack of items to add. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **transferItem**
 `
@@ -99,10 +96,9 @@ Moves an item from one slot to another, potentially across containers.
 
 Returns *boolean*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
-#### Examples
+#### 示例
 ##### ***transferItem.js***
 ```javascript
 rightChestContainer.transferItem(0, 4, chestCartContainer); // transfer the apple from the right chest to a chest cart
@@ -123,10 +119,9 @@ Swaps items between two different slots within containers.
 
 Returns *boolean*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
-#### Examples
+#### 示例
 ##### ***swapItems.js***
 ```javascript
 rightChestContainer.swapItems(1, 0, leftChestContainer); // swap the cake and emerald
