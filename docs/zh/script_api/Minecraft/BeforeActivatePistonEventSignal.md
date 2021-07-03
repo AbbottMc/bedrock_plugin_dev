@@ -17,7 +17,7 @@ Manages callbacks that are connected to an event that fires before a piston is a
 - [subscribe](#subscribe)
 - [unsubscribe](#unsubscribe)
   
-### **subscribe**
+### **subscribe** 
 `
 subscribe(callback: (arg: BeforeActivatePistonEvent) => undefined): (arg: BeforeActivatePistonEvent) => undefined
 `
