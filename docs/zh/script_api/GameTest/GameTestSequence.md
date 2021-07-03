@@ -11,11 +11,10 @@ description: Contents of the GameTest.GameTestSequence class.
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
 
-通过链接.thenXyz方法,依次执行一组步骤,有助于GameTest设置方法或断言的脚本
-Executes a set of steps defined via chained .thenXyz methods, sequentially. This facilitates a 'script' of GameTest setup methods and assertions over time
+通过链式执行.then<Xxx>方法,定义一组步骤。随着时间的推移,这对GameTest设置方法和断言的"脚本"有着促进作用。
 
 
-## Methods
+## 方法
 - [thenExecute](#thenexecute)
 - [thenExecuteAfter](#thenexecuteafter)
 - [thenExecuteFor](#thenexecutefor)
@@ -30,13 +29,13 @@ Executes a set of steps defined via chained .thenXyz methods, sequentially. This
 thenExecute(callback: () => undefined): GameTestSequence
 `
 
-Runs the given callback as a step within a GameTest sequence. Exceptions thrown within the callback will end sequence execution.
-#### Arguments
+将给定的回调作为GameTest序列中的一个步骤运行。 回调中抛出的异常会结束序列执行。
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | Callback function to execute. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence object where additional .thenXyz method steps can be added.
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个GameTestSequence对象,其中可以添加额外的.thenXyz方法步骤。
 
 
 ### **thenExecuteAfter**
@@ -44,14 +43,14 @@ Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence o
 thenExecuteAfter(delayTicks: number, callback: () => undefined): GameTestSequence
 `
 
-After a delay, runs the given callback as a step within a GameTest sequence. Exceptions thrown within the callback will end sequence execution.
-#### Arguments
+延迟后，将给定的回调作为GameTest序列中的一个步骤运行。 回调中抛出的异常会结束序列执行。
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **delayTicks** | *number* | Number of ticks to wait before executing the callback. |
 | **callback** | () => undefined | Callback function to execute. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence object where additional .thenXyz method steps can be added.
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个GameTestSequence对象，其中可以添加额外的.thenXyz方法步骤。
 
 
 ### **thenExecuteFor**
@@ -59,14 +58,14 @@ Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence o
 thenExecuteFor(tickCount: number, callback: () => undefined): GameTestSequence
 `
 
-Runs the given callback every tick for the given number of ticks.
-#### Arguments
+将给定的回调在给定的次数中每一游戏刻运行。
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **tickCount** | *number* | - |
 | **callback** | () => undefined | Callback function to execute. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence object where additional .thenXyz method steps can be added.
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个 GameTestSequence 对象，其中可以添加额外的 .thenXyz 方法步骤。
 
 
 ### **thenFail**
