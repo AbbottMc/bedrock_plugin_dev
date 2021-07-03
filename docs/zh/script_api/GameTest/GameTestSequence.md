@@ -58,14 +58,14 @@ Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个GameTestSequence
 thenExecuteFor(tickCount: number, callback: () => undefined): GameTestSequence
 `
 
-将给定的回调在给定的次数中每一游戏刻运行。
+将给定的回调在给定的游戏刻数中每一游戏刻运行。
 #### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个 GameTestSequence 对象，其中可以添加额外的 .thenXyz 方法步骤。
 | **tickCount** | *number* | - |
 | **callback** | () => undefined | Callback function to execute. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个 GameTestSequence 对象，其中可以添加额外的 .thenXyz 方法步骤。
 
 
 ### **thenFail**
@@ -74,7 +74,8 @@ thenFail(errorMessage: string): void
 `
 
 Causes the test to fail if this step in the GameTest sequence is reached.
-#### Arguments
+)
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **errorMessage** | *string* | Error message summarizing the failure condition. |
@@ -87,12 +88,13 @@ thenIdle(delayTicks: number): GameTestSequence
 `
 
 Idles the GameTest sequence for the specified delayTicks.
-#### Arguments
+指定延时游戏刻，在延时中Gametest序列不执行。[!未定]
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **delayTicks** | *number* | Number of ticks to delay for this step in the GameTest sequence. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence object where additional .thenXyz method steps can be added.
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个 GameTestSequence 对象，其中可以添加额外的 .thenXyz 方法步骤。
 
 
 ### **thenSucceed**
@@ -100,7 +102,7 @@ Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence o
 thenSucceed(): void
 `
 
-Marks the GameTest a success if this step is reached in the GameTest sequence.
+如果此步骤执行成功,就将GameTest标记为成功
 
 
 
@@ -110,12 +112,12 @@ thenWait(callback: () => undefined): GameTestSequence
 `
 
 Executes the given callback every tick until it succeeds. Exceptions thrown within the callback will end sequence execution.
-#### Arguments
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | Testing callback function to execute. Typically, this function will have .assertXyz functions within it. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence object where additional .thenXyz method steps can be added.
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个 GameTestSequence 对象，其中可以添加额外的 .thenXyz 方法步骤。
 
 
 ### **thenWaitWithDelay**
@@ -124,12 +126,10 @@ thenWaitWithDelay(delayTicks: number, callback: () => undefined): GameTestSequen
 `
 
 After a delay from the previous step, executes the given callback every tick until it succeeds. Exceptions thrown within the callback will end sequence execution.
-#### Arguments
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **delayTicks** | *number* | Tick (after the previous step in the GameTest sequence) to run the callback at. |
 | **callback** | () => undefined | Testing callback function to execute. Typically, this function will have .assertXyz functions within it. |
 
-Returns [*GameTestSequence*](GameTestSequence.md) - Returns a GameTestSequence object where additional .thenXyz method steps can be added.
-
-
+Returns [*GameTestSequence*](GameTestSequence.md) - 返回一个 GameTestSequence 对象，其中可以添加额外的 .thenXyz 方法步骤。
