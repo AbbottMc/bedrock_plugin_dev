@@ -27,10 +27,10 @@ description: Contents of the Minecraft.Movement class.
 
 
 ## 方法
-- [`setCurrent`](#setcurrent)
-- [`resetToMinValue`](#resettominvalue)
-- [`resetToMaxValue`](#resettomaxvalue)
-- [`resetToDefaultValue`](#resettodefaultvalue)
+- [setCurrent](#setcurrent)
+- [resetToMinValue](#resettominvalue)
+- [resetToMaxValue](#resettomaxvalue)
+- [resetToDefaultValue](#resettodefaultvalue)
   
 ### **setCurrent**
 `
