@@ -29,10 +29,9 @@ Runs a particular command from the context of the server. Command strings should
 
 Returns *json* - For commands that return data, returns a structure with command response values.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
-#### Examples
+#### 示例
 ##### ***commands.js***
 ```javascript
 Commands.run("say You got a new high score!");
