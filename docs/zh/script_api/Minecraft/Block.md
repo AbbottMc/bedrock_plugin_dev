@@ -135,6 +135,7 @@ console.log(`Block is stone: ${block.hasTag("stone")}`);
 ```
 ### **setPermutation**
 >此方法的翻译有待商讨
+
 `
 setPermutation(permutation: BlockPermutation): void
 `
