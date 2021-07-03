@@ -6,44 +6,44 @@ ms.prod: gaming
 title: Minecraft.BeforeActivatePistonEventSignal Class
 description: Contents of the Minecraft.BeforeActivatePistonEventSignal class.
 ---
-# BeforeActivatePistonEventSignal Class
+# BeforeActivatePistonEventSignal 类
+
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
 Manages callbacks that are connected to an event that fires before a piston is activated.
 
-
 ## Methods
+
 - [subscribe](#subscribe)
 - [unsubscribe](#unsubscribe)
-  
-### **subscribe** 
-`
-subscribe(callback: (arg: BeforeActivatePistonEvent) => undefined): (arg: BeforeActivatePistonEvent) => undefined
-`
+
+### **subscribe**
+
+`subscribe(callback: (arg: BeforeActivatePistonEvent) => undefined): (arg: BeforeActivatePistonEvent) => undefined`
 
 Adds a callback that will be called before a piston expands or retracts.
+
 #### Arguments
-| Param | Type | Description |
-| :--- | :--- | :---: |
-| **callback** | (arg: BeforeActivatePistonEvent) => undefined | - |
+
+| Param              | Type                                          | Description |
+| :----------------- | :-------------------------------------------- | :---------: |
+| **callback** | (arg: BeforeActivatePistonEvent) => undefined |      -      |
 
 Returns (arg: BeforeActivatePistonEvent) => undefined
 
-
 ### **unsubscribe**
-`
-unsubscribe(callback: (arg: BeforeActivatePistonEvent) => undefined): void
-`
+
+`unsubscribe(callback: (arg: BeforeActivatePistonEvent) => undefined): void`
 
 Removes a callback from being called before a piston expands or retracts.
-#### Arguments
-| Param | Type | Description |
-| :--- | :--- | :---: |
-| **callback** | (arg: BeforeActivatePistonEvent) => undefined | - |
 
+#### Arguments
+
+| Param              | Type                                          | Description |
+| :----------------- | :-------------------------------------------- | :---------: |
+| **callback** | (arg: BeforeActivatePistonEvent) => undefined |      -      |
 
 ::: warning 注意
 此函数可抛出错误
 :::
-
