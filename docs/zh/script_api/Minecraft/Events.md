@@ -10,39 +10,37 @@ description: Contents of the Minecraft.Events class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Contains a set of events that are available across the scope of the World.
+包含了一组用于世界中的事件
 
 ## Properties
-### **tick** - `EmptySignal`
-This event fires every tick - which is 20 times per second.
+### **tick** - [`EmptySignal`](EmptySignal.md)
+此事件每游戏刻触发一次 - 即每秒20次
 
 
-### **changeWeather** - `ChangeWeatherEventSignal`
-This event will be triggered when the weather changes within Minecraft.
+### **changeWeather** - [`ChangeWeatherEventSignal`](ChangeWeatherEventSignal.md)
+此事件在Minecraft天气变化时触发
 
 
-### **addEffect** - `AddEffectEventSignal`
-This event fires when an effect, like poisoning, is added to an entity.
+### **addEffect** - [`AddEffectEventSignal`](AddEffectEventSignal.md)
+此事件在实体被添加了状态时触发
 
 
-### **beforeChat** - `BeforeChatEventSignal`
-This event fires before a chat message is broadcast or delivered. The event can be canceled, and the message can also be updated.
+### **beforeChat** - [`BeforeChatEventSignal`](BeforeChatEventSignal.md)
+此事件在消息被传递或广播前触发,可以取消发送,也可以更新消息
 
 
-### **chat** - `ChatEventSignal`
-This event is triggered after a chat message has been broadcast or sent to players.
+### **chat** - [`ChatEventSignal`](ChatEventSignal.md)
+此事件在消息被传递或广播后触发
 
 
-### **createEntity** - `EntityEventSignal`
-This event fires when a new entity is created.
+### **createEntity** - [`EntityEventSignal`](EntityEventSignal.md)
+此事件在创建新实体时触发
 
 
-### **beforeActivatePiston** - `BeforeActivatePistonEventSignal`
-Fires before a piston is activated.
+### **beforeActivatePiston** - [`BeforeActivatePistonEventSignal`](BeforeActivatePistonEventSignal.md)
+此事件在活塞收到激活命令,激活之前触发
 
 
-### **activatePiston** - `ActivatePistonEventSignal`
-This event fires when a piston expands or retracts.
-
-
+### **activatePiston** - [`ActivatePistonEventSignal`](ActivatePistonEventSignal.md)
+此事件在活塞激活或收回后触发
 
