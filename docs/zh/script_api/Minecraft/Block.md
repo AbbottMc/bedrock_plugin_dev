@@ -26,7 +26,7 @@ Represents a block in a dimension. A block represents a unique X, Y, and Z withi
 
 
 
-## Methods
+## 方法
 - [canBeWaterlogged](#canbewaterlogged)
 - [getBlockData](#getblockdata)
 - [getComponent](#getcomponent)
@@ -56,8 +56,7 @@ getBlockData(): BlockPermutation
 
 Returns [*BlockPermutation*](BlockPermutation.md) - Additional block configuration data that describes the block.
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **getComponent**
 `
@@ -67,8 +66,7 @@ getComponent(): any
 
 Returns *any*
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **getLocation**
 `
@@ -144,7 +142,7 @@ Sets the block in the dimension to the state of the permutation.
 
 
 
-#### Examples
+#### 示例
 ##### ***place_bottom_stone_slab.js***
 ```javascript
 import { World, BlockTypes, BlockProperties, BlockLocation } from "Minecraft";
