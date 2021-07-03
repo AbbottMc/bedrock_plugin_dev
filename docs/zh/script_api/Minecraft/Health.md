@@ -12,7 +12,7 @@ description: Contents of the Minecraft.Health class.
 :::
 Defines the health properties of an entity.
 
-## Properties
+## 属性
 ### **id** - `string`
 Identifier of this component. Should always be minecraft:health.
 
@@ -26,7 +26,7 @@ Read-only. Returns the current value of health for the entity.
 
 
 
-## Methods
+## 方法
 - [setCurrent](#setcurrent)
 - [resetToMinValue](#resettominvalue)
 - [resetToMaxValue](#resettomaxvalue)
@@ -40,8 +40,7 @@ setCurrent(): void
 Sets the current health of the entity.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToMinValue**
 `
@@ -51,8 +50,7 @@ resetToMinValue(): void
 Resets the current health to the minimum value.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToMaxValue**
 `
@@ -62,8 +60,7 @@ resetToMaxValue(): void
 Resets the current health of the entity to its maximum value.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
 ### **resetToDefaultValue**
 `
@@ -73,6 +70,5 @@ resetToDefaultValue(): void
 Resets the current health value of the entity to its default value.
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
