@@ -13,7 +13,7 @@ description: Contents of the Minecraft.Dimension class.
 A class that represents a particular dimension (e.g., The End) within a world.
 
 
-## Methods
+## 方法
 - [isEmpty](#isempty)
 - [getEntitiesAtBlockLocation](#getentitiesatblocklocation)
 - [getBlock](#getblock)
@@ -39,7 +39,7 @@ Returns *boolean* - True if the block at the location is air (empty)
 getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 `
 
-#### Arguments
+#### 参数
 | Param | Type | Description |
 | :--- | :--- | :---: |
 | **location** | [*BlockLocation*](BlockLocation.md) | - |
@@ -90,6 +90,5 @@ Creates an explosion at the specified location.
 | **explosionOptions** | [*ExplosionOptions*](ExplosionOptions.md) | Additional configurable options for the explosion. |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
