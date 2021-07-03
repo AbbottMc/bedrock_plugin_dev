@@ -76,9 +76,7 @@ getLocation(): BlockLocation
 
 Returns [*BlockLocation*](BlockLocation.md) - Coordinates of the specified block.
 
-> [!WARNING]
-> This function can throw errors.
-
+::: warning 警告 此函数可抛出错误 :::
 ### **getTags**
 `
 getTags(): any[]
