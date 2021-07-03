@@ -31,7 +31,7 @@ Registers a new GameTest function. This GameTest will become available in Minecr
 | **testName** | *string* | Name of this specific test. |
 | **testFunction** | (arg: Helper) => undefined | Implementation of the test function. |
 
-Returns [*RegistrationBuilder*](RegistrationBuilder.md) - Returns a [*GameTest.RegistrationBuilder*](../GameTest/RegistrationBuilder.md) object where additional options for this test can be specified via builder methods.
+Returns [*RegistrationBuilder*](RegistrationBuilder.md) - Returns a [*GameTest.RegistrationBuilder*](../GameTest/RegistrationBuilder.md) object where additional options for this test can be specified via builder methods
 
 
 #### Examples
