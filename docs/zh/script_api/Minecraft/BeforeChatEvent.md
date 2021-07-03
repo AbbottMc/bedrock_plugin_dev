@@ -6,16 +6,16 @@ ms.prod: gaming
 title: Minecraft.BeforeChatEvent Class
 description: Contents of the Minecraft.BeforeChatEvent class.
 ---
-# BeforeChatEvent Class
+# BeforeChatEvent 类
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
 
-一个在玩家发送消息时触发的事件
+在玩家发送消息时被触发的事件
 
 ## Properties
 ### **message** - `string`
-要进行广播的消息。在beforeChat事件处理器中,_message_可以在对玩家显示前进行编辑。
+将被广播的消息。在beforeChat事件处理器中，_message_在呈现给玩家前可被编辑。
 
 
 ### **sender** - `Player`
@@ -23,12 +23,12 @@ description: Contents of the Minecraft.BeforeChatEvent class.
 
 
 ### **targets** - `Player[]`
-将会收到消息的玩家的列表。
+将收到消息的玩家列表。
 
 
 ### **sendToTargets** - `boolean`
-如果此属性为true,那么消息只会发送给属性targets中列出的一个或更多玩家而不广播。
+若此属性为true，则消息只会发送给targets中列出的一个或多个玩家，而非向全体玩家进行广播。
 
 
 ### **cancel** - `boolean`
-如果在beforeChat事件处理器中设置为true,消息将不会显示
+如果在beforeChat事件处理器中设置为true，消息将不会显示
