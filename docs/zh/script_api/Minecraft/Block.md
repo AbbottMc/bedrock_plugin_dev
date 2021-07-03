@@ -10,7 +10,8 @@ description: Contents of the Minecraft.Block class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Represents a block in a dimension. A block represents a unique X, Y, and Z within a dimension and get/sets the state of the block at that location. This type was significantly updated in version 1.17.10.21.
+
+表示维度中的方块。方块代表着唯一的X、Y和Z，并获取/设置该位置方块的状态。此类在版本1.17.10.21中有较大改动
 
 ## 属性
 ### **x** - `number`
@@ -43,9 +44,8 @@ Represents a block in a dimension. A block represents a unique X, Y, and Z withi
 `
 canBeWaterlogged(): boolean
 `
-
-
-Returns *boolean* - Whether this particular block, based on its block type, can be waterlogged.
+返回一个*boolean*，表示该方块是否可含水
+.
 
 
 ### **getBlockData**
@@ -54,7 +54,7 @@ getBlockData(): BlockPermutation
 `
 
 
-Returns [*BlockPermutation*](BlockPermutation.md) - Additional block configuration data that describes the block.
+返回 [*BlockPermutation*](BlockPermutation.md) -. 方块的附加数据
 
 ::: warning 注意
 此函数可抛出错误
@@ -66,7 +66,7 @@ getComponent(): any
 `
 
 
-Returns *any*
+返回 *any*
 
 ::: warning 注意
 此函数可抛出错误
@@ -78,7 +78,7 @@ getLocation(): BlockLocation
 `
 
 
-Returns [*BlockLocation*](BlockLocation.md) - Coordinates of the specified block.
+返回 [*BlockLocation*](BlockLocation.md) - 指定方块的坐标
 
 ::: warning 注意
 此函数可抛出错误
