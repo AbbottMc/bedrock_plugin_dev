@@ -40,6 +40,5 @@ unsubscribe(callback: (arg: WeatherChangedEvent) => undefined): void
 | **callback** | (arg: WeatherChangedEvent) => undefined | - |
 
 
-> [!WARNING]
-> This function can throw errors.
+::: warning 警告 此函数可抛出错误 :::
 
