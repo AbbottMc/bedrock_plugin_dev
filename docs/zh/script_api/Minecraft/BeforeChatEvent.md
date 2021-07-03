@@ -10,27 +10,25 @@ description: Contents of the Minecraft.BeforeChatEvent class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-An event that fires as players enter chat messages.
+
+一个在玩家发送消息时触发的事件
 
 ## Properties
 ### **message** - `string`
-Message that is being broadcast. In a beforeChat event handler, _message_ can be updated with edits before the message is displayed to players.
+要进行广播的消息。在beforeChat事件处理器中,_消息_可以在对玩家显示前进行编辑。
 
 
 ### **sender** - `Player`
-Player that sent the chat message.
+发送消息的玩家。
 
 
 ### **targets** - `Player[]`
-List of players that will receive this message.
+将会收到消息的玩家的列表。
 
 
 ### **sendToTargets** - `boolean`
-If true, this message is directly targeted to one or more players (i.e., is not broadcast.)
+如果此属性为true,那么消息只会发送给属性targets中列出的一个或更多玩家而不广播。
 
 
 ### **cancel** - `boolean`
-If set to true in a beforeChat event handler, this message is not broadcast out.
-
-
-
+如果在beforeChat事件处理器中设置为true,消息将不会显示
