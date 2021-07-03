@@ -23,26 +23,26 @@ description: Contents of the Minecraft.AddEffectEventSignal class.
 
 `subscribe(callback: (arg: ActorAddEffectEvent) => undefined): (arg: ActorAddEffectEvent) => undefined`
 
-Adds a callback that will be called when an effect is added to an entity.
+效果添加到实体时再添加回调
 
-#### Arguments
+#### 实参列表
 
-| Param              | Type                                    | Description |
-| :----------------- | :-------------------------------------- | :---------: |
-| **callback** | (arg: ActorAddEffectEvent) => undefined |      -      |
+| 参数               | 类型                                    | 描述 |
+| :----------------- | :-------------------------------------- | :--: |
+| **callback** | (arg: ActorAddEffectEvent) => undefined |  -  |
 
-Returns (arg: ActorAddEffectEvent) => undefined
+返回 (arg: ActorAddEffectEvent) => undefined
 
 ### **unsubscribe**
 
 `unsubscribe(callback: (arg: ActorAddEffectEvent) => undefined): void`
 
-Removes a callback from being called when an effect is added to an entity.
+效果添加到实体时删除回调
 
-#### Arguments
+#### 实参列表
 
-| Param              | Type                                    | Description |
-| :----------------- | :-------------------------------------- | :---------: |
-| **callback** | (arg: ActorAddEffectEvent) => undefined |      -      |
+| 参数               | 类型                                    | 描述 |
+| :----------------- | :-------------------------------------- | :--: |
+| **callback** | (arg: ActorAddEffectEvent) => undefined |  -  |
 
 ::: warning 警告 此函数可抛出错误 :::
