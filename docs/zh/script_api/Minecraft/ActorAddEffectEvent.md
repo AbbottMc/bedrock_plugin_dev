@@ -17,7 +17,7 @@ description: Contents of the Minecraft.ActorAddEffectEvent class.
 
 
 ### **effect** - `Effect`
-添加的状态效果对象
+添加的状态效果
 
 
 ### **effectState** - `number`

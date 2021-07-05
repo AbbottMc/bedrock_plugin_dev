@@ -21,8 +21,7 @@ description: Contents of the Minecraft.ActivatePistonEventSignal class.
 `
 subscribe(callback: (args: ActivatePistonEvent) => undefined): (arg: ActivatePistonEvent) => undefined
 `
-
-添加一个会在活塞伸出或收缩时被回调的函数
+向 _活塞激活事件_ 的回调队列中添加一个指定的回调函数，该函数会在活塞伸出或收缩时被调用。
 #### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
@@ -30,8 +29,8 @@ subscribe(callback: (args: ActivatePistonEvent) => undefined): (arg: ActivatePis
 
 返回 (arg: ActivatePistonEvent) => undefined
 
-#### 实例
-``` javascript
+#### 示例
+```javascript
 import {Commands, World} from 'Minecraft';
 
 const log = function(message){
@@ -49,8 +48,7 @@ World.events.activatePiston.subscribe((event)=>{
 unsubscribe(callback: (arg: ActivatePistonEvent) => undefined): void
 `
 
-移除了一个会在活塞伸出或收缩时被回调的函数。
-
+从 _活塞激活事件_ 的回调队列中移除一个指定的回调函数。
 #### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
