@@ -48,7 +48,7 @@ tame(): boolean
 驯服本实体
 
 <!-- Returns *boolean* - Returns true if the entity was tamed. -->
-返回值类型 *boolean*。返回这个实体是否被驯服。 
+Returns *boolean*。返回这个实体是否被驯服。 
 
 
 ::: warning 注意
