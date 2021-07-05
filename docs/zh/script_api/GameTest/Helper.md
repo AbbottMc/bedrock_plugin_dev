@@ -562,11 +562,11 @@ Presses a button at a block location.
 print(text: string): void
 `
 
-Displays the specified message to all players.
+向所有的玩家展示指定的信息。
 #### Arguments
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **text** | *string* | Message to display. |
+| **text** | *string* | 展示的信息 |
 
 
 ::: warning 注意
@@ -578,8 +578,8 @@ Displays the specified message to all players.
 pullLever(location: Minecraft.BlockLocation): void
 `
 
-Pulls a lever at a block location.
-#### Arguments
+拉动指定方块位置的拉杆。
+#### 参数类型
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
