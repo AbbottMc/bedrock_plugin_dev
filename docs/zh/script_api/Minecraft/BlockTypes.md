@@ -2820,7 +2820,7 @@ get(typeName: string): BlockType
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **typeName** | *string* | - |
 

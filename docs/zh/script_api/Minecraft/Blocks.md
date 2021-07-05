@@ -684,7 +684,7 @@ get(blockName: string): Block
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockName** | *string* | - |
 

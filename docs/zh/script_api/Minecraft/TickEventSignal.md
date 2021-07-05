@@ -24,7 +24,7 @@ subscribe(callback: () => undefined): () => undefined
 
 Adds a callback that will be called on every tick.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | - |
 
@@ -38,7 +38,7 @@ unsubscribe(callback: () => undefined): void
 
 Removes a callback from being called every tick.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | - |
 

@@ -23,7 +23,7 @@ subscribe(callback: (args: ActivatePistonEvent) => undefined): (arg: ActivatePis
 `
 
 添加一个会在活塞伸出或收缩时被回调的函数
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ActivatePistonEvent) => undefined | 被添加进活塞激活事件回调队列中的函数 |
@@ -51,7 +51,7 @@ unsubscribe(callback: (arg: ActivatePistonEvent) => undefined): void
 
 移除了一个会在活塞伸出或收缩时被回调的函数。
 
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ActivatePistonEvent) => undefined | 被从活塞激活事件回调队列中移除的函数 |

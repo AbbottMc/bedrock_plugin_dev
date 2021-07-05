@@ -36,7 +36,7 @@ setItem(slot: number, itemStack: ItemStack): void
 
 Sets an item stack within a particular slot.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **slot** | *number* | Zero-based index of the slot to set an item at. |
 | **itemStack** | [*ItemStack*](ItemStack.md) | Stack of items to place within the specified slot. |
@@ -53,7 +53,7 @@ getItem(slot: number): ItemStack
 
 Gets the item stack for the set of items at the specified slot. If the slot is empty, returns undefined. This method does not change or clear the contents of the specified slot.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **slot** | *number* | Zero-based index of the slot to retrieve items from. |
 
@@ -78,7 +78,7 @@ addItem(itemStack: ItemStack): void
 
 Adds an item to the specified container. Items will be placed in the first available empty slot. (Use [*Minecraft.InventoryComponentContainer.setItem*](../Minecraft/InventoryComponentContainer.md#setitem) if you wish to set items in a particular slot.)
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemStack** | [*ItemStack*](ItemStack.md) | The stack of items to add. |
 
@@ -94,7 +94,7 @@ transferItem(fromSlot: number, toSlot: number, toContainer: Container): boolean
 
 Moves an item from one slot to another, potentially across containers.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **fromSlot** | *number* | - |
 | **toSlot** | *number* | Zero-based index of the slot to move to. |
@@ -119,7 +119,7 @@ swapItems(slot: number, otherSlot: number, otherContainer: Container): boolean
 
 Swaps items between two different slots within containers.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **slot** | *number* | Zero-based index of the slot to swap from this container. |
 | **otherSlot** | *number* | Zero-based index of the slot to swap with. |

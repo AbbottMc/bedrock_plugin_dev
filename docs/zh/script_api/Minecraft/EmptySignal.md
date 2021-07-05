@@ -24,7 +24,7 @@ subscribe(callback: () => undefined): () => undefined
 
 Adds a callback that will be called for basic events that take no arguments, like Tick.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | - |
 
@@ -38,7 +38,7 @@ unsubscribe(callback: () => undefined): void
 
 Removes a callback from being called for basic events.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | - |
 

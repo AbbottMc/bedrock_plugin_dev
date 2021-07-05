@@ -140,7 +140,7 @@ setPermutation(permutation: BlockPermutation): void
 `
 置换维度中方块的类型
 .
-#### 实参列表
+#### 参数列表
 | 参数| 类型 | 描述 |
 | :--- | :--- | :---: |
 | **permutation** | [*BlockPermutation*](BlockPermutation.md) | - |
@@ -179,7 +179,7 @@ setWaterlogged(setWaterlogged: boolean): void
 `
 
 设置方块的含水状态
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **setWaterlogged** | *boolean* |如果设置为true，并且方块可含水，那么方块将会被设置位含水状态 |

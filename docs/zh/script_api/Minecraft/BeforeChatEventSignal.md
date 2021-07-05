@@ -25,7 +25,7 @@ description: Contents of the Minecraft.BeforeChatEventSignal class.
 
 在新消息发送之前添加回调
 
-#### 实参列表
+#### 参数列表
 
 | 参数               | 类型                                | 描述 |
 | :----------------- | :---------------------------------- | :--: |
@@ -39,7 +39,7 @@ description: Contents of the Minecraft.BeforeChatEventSignal class.
 
 在新消息发送之前取消回调
 
-#### 实参列表
+#### 参数列表
 
 | 参数               | 类型                                | 描述 |
 | :----------------- | :---------------------------------- | :--: |

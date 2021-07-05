@@ -25,7 +25,7 @@ description: Contents of the Minecraft.BeforeActivatePistonEventSignal class.
 
 在活塞运动之前添加将被调用的回调
 
-#### 实参列表
+#### 参数列表
 
 | 参数               | 类型                                          | 描述 |
 | :----------------- | :-------------------------------------------- | :--: |
@@ -39,7 +39,7 @@ description: Contents of the Minecraft.BeforeActivatePistonEventSignal class.
 
 在活塞运动之前移除将被调用的回调
 
-#### 实参列表
+#### 参数列表
 
 | 参数               | 类型                                          | 描述 |
 | :----------------- | :-------------------------------------------- | :--: |

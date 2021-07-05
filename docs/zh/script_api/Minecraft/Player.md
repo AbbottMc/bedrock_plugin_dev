@@ -51,7 +51,7 @@ title: Minecraft.Player Class
 hasComponent(componentId: string): boolean
 `
 
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **componentId** | *string* | - |
@@ -64,7 +64,7 @@ hasComponent(componentId: string): boolean
 getComponent(componentId: string): any
 `
 
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **componentId** | *string* | 目标组件的ID |
@@ -99,7 +99,7 @@ getEffect(effectType: EffectType): Effect
 
 获取玩家所携带的指定状态效果对象
 
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **effectType** | [*EffectType*](EffectType.md) | 目标状态效果的类型 |
@@ -116,7 +116,7 @@ addEffect(effectType: EffectType, duration: number, amplifier: number): void
 `
 
 为玩家添加状态效果，如中毒(poison)、凋零(wither)、瞬间伤害(InstantDamage)等。
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **effectType** | [*EffectType*](EffectType.md) | 为玩家添加的状态效果类型|
@@ -134,7 +134,7 @@ triggerEvent(eventName: string): void
 `
 
 触发实体类事件。对于每个实体，在它们的关键实体行为中都定义了许多事件，例如苦力怕有minecraft:start_exploding类型的事件
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **eventName** | *string* | 要触发的实体类事件的名字。如果没有特别声明命名空间，则假定有minecraft:前缀 |

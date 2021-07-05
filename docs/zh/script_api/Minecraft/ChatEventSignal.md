@@ -24,7 +24,7 @@ subscribe(callback: (arg: ChatEvent) => undefined): (arg: ChatEvent) => undefine
 `
 
 添加一个会在玩家发送聊天信息时被回调的函数
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ChatEvent) => undefined | - |
@@ -53,7 +53,7 @@ unsubscribe(callback: (arg: ChatEvent) => undefined): void
 `
 
 移除一个会在玩家发送聊天信息时被回调的函数
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ChatEvent) => undefined | - |

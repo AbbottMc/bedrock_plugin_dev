@@ -36,7 +36,7 @@ new Location(x: number, y: number, z: number)
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **x** | *number* | - |
 | **y** | *number* | - |
@@ -52,7 +52,7 @@ equals(other: Location): boolean
 
 Compares this Location and another Location to one another.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **other** | [*Location*](Location.md) | Other location to compare this Location to. |
 

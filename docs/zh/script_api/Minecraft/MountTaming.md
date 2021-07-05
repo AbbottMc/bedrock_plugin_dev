@@ -28,7 +28,7 @@ setTamed(showParticles: boolean): void
 
 Sets this rideable entity as tamed.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **showParticles** | *boolean* | Whether to show effect particles when this entity is tamed. |
 

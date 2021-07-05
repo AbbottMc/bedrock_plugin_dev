@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityEvent) => undefined): (arg: EntityEvent) => unde
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: EntityEvent) => undefined | - |
 
@@ -35,7 +35,7 @@ unsubscribe(callback: (arg: EntityEvent) => undefined): void
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: EntityEvent) => undefined | - |
 

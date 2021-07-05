@@ -68,7 +68,7 @@ setAirSupply(value: number): void
 
 Sets the current air supply of the entity.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **value** | *number* | New air supply for the entity. |
 

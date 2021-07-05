@@ -24,7 +24,7 @@ subscribe(callback: (arg: ActorAddEffectEvent) => undefined): (arg: ActorAddEffe
 
 <!--Adds a callback that will be called when an effect is added to an entity.-->
 向 _添加状态效果事件_ 的回调队列中添加一个指定的回调函数，该函数会在添加状态效果至某实体时被触发。
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ActorAddEffectEvent) => undefined | - |
@@ -38,7 +38,7 @@ unsubscribe(callback: (arg: ActorAddEffectEvent) => undefined): void
 `
 
 从 _添加状态效果事件_ 的回调队列中移除一个指定的回调函数
-#### 实参列表
+#### 参数列表
 | 参数 | 参数 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: ActorAddEffectEvent) => undefined | - |

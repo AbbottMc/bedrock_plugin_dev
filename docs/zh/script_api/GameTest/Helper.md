@@ -72,7 +72,7 @@ assertBlockState(blockStateName: string, stateValue: number, location: Minecraft
 
 Tests that a block has a particular state value at the specified location. If it does not have that state value, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockStateName** | *string* | Name of the block state to test. |
 | **stateValue** | *number* | Expected state value. |
@@ -96,7 +96,7 @@ assertBlockTypeNotPresent(blockType: Minecraft.BlockType, location: Minecraft.Bl
 
 Tests that a block of the specified type is not present at the specified location. If it is, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockType** | [*Minecraft.BlockType*](../Minecraft/BlockType.md) | - |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -113,7 +113,7 @@ assertBlockTypePresent(blockType: Minecraft.BlockType, location: Minecraft.Block
 
 Tests that a block of the specified type is present at the specified location. If it is not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockType** | [*Minecraft.BlockType*](../Minecraft/BlockType.md) | - |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -129,7 +129,7 @@ assertCanReachLocation(mob: Minecraft.Entity, location: Minecraft.BlockLocation,
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **mob** | [*Minecraft.Entity*](../Minecraft/Entity.md) | - |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -147,7 +147,7 @@ assert(condition: boolean, message: string): void
 
 Tests that the condition specified in _condition_ is true. If not, an error with the specified _message_ is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **condition** | *boolean* | Expression of the condition to evaluate. |
 | **message** | *string* | Message that is passed if the _condition_ does not evaluate to true. |
@@ -164,7 +164,7 @@ assertContainerContains(itemStack: Minecraft.ItemStack, location: Minecraft.Bloc
 
 Tests that a container (e.g., a chest) at the specified location contains a specified of item stack. If not, an error is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemStack** | [*Minecraft.ItemStack*](../Minecraft/ItemStack.md) | Represents the type of item to check for. The specified container must contain at least 1 item matching the item type defined in _itemStack_. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -181,7 +181,7 @@ assertContainerEmpty(location: Minecraft.BlockLocation): void
 
 Tests that a container (e.g., a chest) at the specified location is empty. If not, an error is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
@@ -197,7 +197,7 @@ assertEntityData(location: Minecraft.BlockLocation, entityIdentifier: string, ca
 
 Tests that an entity (e.g., a skeleton) at the specified location has a particular piece of data. If not, an error is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 | **entityIdentifier** | *string* | Identifier of the entity (e.g., 'minecraft:skeleton') to look for. Note if no namespace is specified, 'minecraft:' is assumed. |
@@ -225,7 +225,7 @@ assertEntityHasArmor(entityIdentifier: string, armorSlot: number, armorName: str
 
 Tests that an entity has a specific piece of armor equipped. If not, an error is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Identifier of the entity to match (e.g., 'minecraft:skeleton'). |
 | **armorSlot** | *number* | Container slot index to test. |
@@ -252,7 +252,7 @@ assertEntityHasComponent(entityIdentifier: string, componentIdentifier: string, 
 
 Tests that an entity has a particular component. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Identifier of the specified entity (e.g., 'minecraft:skeleton'). If the namespace is not specified, 'minecraft:' is assumed. |
 | **componentIdentifier** | *string* | Identifier of the component to check for. If the namespace is not specified, 'minecraft:' is assumed. |
@@ -277,7 +277,7 @@ assertEntityInstancePresent(entity: Minecraft.Entity): void
 
 Tests that a particular entity is still present and alive within the GameTest area. If not, an error is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entity** | [*Minecraft.Entity*](../Minecraft/Entity.md) | Specific entity to test for. |
 
@@ -293,7 +293,7 @@ assertEntityNotPresent(entityIdentifier: string, location: Minecraft.BlockLocati
 
 Tests that an entity of a specified type is not present at a specified location. If it is, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -310,7 +310,7 @@ assertEntityNotPresentInArea(entityIdentifier: string): void
 
 Tests that an entity of a specified type is not present within the GameTest area. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 
@@ -326,7 +326,7 @@ assertEntityNotTouching(entityIdentifier: string, position: Minecraft.Location):
 
 Tests that an entity of a specified type is not touching or connected to another entity. If it is, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 | **position** | [*Minecraft.Location*](../Minecraft/Location.md) | Location of the entity to test for. |
@@ -343,7 +343,7 @@ assertEntityPresent(entityIdentifier: string, location: Minecraft.BlockLocation)
 
 Tests that an entity of a specified type is present at a particular location. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -360,7 +360,7 @@ assertEntityPresentInArea(entityIdentifier: string): void
 
 Tests that an entity of a specified type is present within the GameTest area. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 
@@ -376,7 +376,7 @@ assertEntityTouching(entityIdentifier: string, position: Minecraft.Location): vo
 
 Tests that an entity of a specified type is touching or connected to another entity. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 | **position** | [*Minecraft.Location*](../Minecraft/Location.md) | Location of the entity to test for. |
@@ -393,7 +393,7 @@ assertIsWaterlogged(location: Minecraft.BlockLocation, isWaterlogged: boolean): 
 
 Tests that a block at a location contains water in addition to another block type. If not, an error is thrown. Water blocks are not considered to be waterlogged.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 | **isWaterlogged** | *boolean* | Whether not not the block at _position_ is expected to be waterlogged. |
@@ -410,7 +410,7 @@ assertItemEntityCountIs(itemType: Minecraft.ItemType, location: Minecraft.BlockL
 
 Tests that items of a particular type and count are present within an area. If not, an error is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemType** | [*Minecraft.ItemType*](../Minecraft/ItemType.md) | Type of item to look for. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -435,7 +435,7 @@ assertItemEntityNotPresent(itemType: Minecraft.ItemType, location: Minecraft.Blo
 
 Tests that a particular item entity is not present at a particular location. If it is, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemType** | [*Minecraft.ItemType*](../Minecraft/ItemType.md) | Type of item to test for. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -453,7 +453,7 @@ assertItemEntityPresent(itemType: Minecraft.ItemType, location: Minecraft.BlockL
 
 Tests that a particular item entity is present at a particular location. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemType** | [*Minecraft.ItemType*](../Minecraft/ItemType.md) | Type of item to test for. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -471,7 +471,7 @@ assertRedstonePower(location: Minecraft.BlockLocation, power: number): void
 
 Tests that Redstone power at a particular location matches a particular value. If not, an exception is thrown.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 | **power** | *number* | Expected power level. |
@@ -488,7 +488,7 @@ fail(errorMessage: string): void
 
 Marks the current test as a failure case.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **errorMessage** | *string* | Error message summarizing the failure condition. |
 
@@ -504,7 +504,7 @@ failIf(callback: () => undefined): void
 
 Runs the given callback. If the callback does not throw an exception, the test is marked as a failure.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | Callback function that runs. If the function runs successfully, the test is marked as a failure. Typically, this function will have .assertXyz method calls within it. |
 
@@ -520,7 +520,7 @@ getBlock(location: Minecraft.BlockLocation): Minecraft.Block
 
 Gets a block at the specified block location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | Location of the block to retrieve. |
 
@@ -549,7 +549,7 @@ pressButton(location: Minecraft.BlockLocation): void
 
 Presses a button at a block location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
@@ -564,7 +564,7 @@ print(text: string): void
 
 Displays the specified message to all players.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **text** | *string* | Message to display. |
 
@@ -580,7 +580,7 @@ pullLever(location: Minecraft.BlockLocation): void
 
 Pulls a lever at a block location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 
@@ -595,7 +595,7 @@ pulseRedstone(location: Minecraft.BlockLocation, duration: number): void
 
 Sends a Redstone pulse at a particular location by creating a temporary Redstone block.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
 | **duration** | *number* | Number of ticks to pulse Redstone. |
@@ -612,7 +612,7 @@ relativeLocation(worldLocation: Minecraft.BlockLocation): Minecraft.BlockLocatio
 
 From a BlockLocation, returns a new BlockLocation with coordinates relative to the current GameTest structure block. For example, the relative coordinates for the block above the structure block are (0, 1, 0). Rotation of the GameTest structure is also taken into account.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **worldLocation** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | Absolute location in the world to convert to a relative location. |
 
@@ -629,7 +629,7 @@ runAfterDelay(delayTicks: number, callback: () => undefined): void
 
 Runs a specific callback after a specified delay of ticks
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **delayTicks** | *number* | Number of ticks to delay before running the specified callback. |
 | **callback** | () => undefined | Callback function to execute. |
@@ -646,7 +646,7 @@ runAtTickTime(tick: number, callback: () => undefined): void
 
 Runs the given callback after a delay of _tick_ ticks from the start of the GameTest.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **tick** | *number* | Tick (after the start of the GameTest) to run the callback at. |
 | **callback** | () => undefined | Callback function to execute. |
@@ -663,7 +663,7 @@ setBlockPermutation(blockData: Minecraft.BlockPermutation, location: Minecraft.B
 
 Sets a block to a particular configuration (a BlockPermutation) at the specified block location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockData** | [*Minecraft.BlockPermutation*](../Minecraft/BlockPermutation.md) | Permutation that contains the configuration data for a block. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | Location of the block to set. |
@@ -680,7 +680,7 @@ setBlockType(blockType: Minecraft.BlockType, location: Minecraft.BlockLocation):
 
 Sets a block to a particular type at the specified block location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockType** | [*Minecraft.BlockType*](../Minecraft/BlockType.md) | - |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -697,7 +697,7 @@ setTntFuse(actor: Minecraft.Entity, fuseLength: number): void
 
 Sets the fuse of an explodable entity.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **actor** | [*Minecraft.Entity*](../Minecraft/Entity.md) | Entity that is explodable. |
 | **fuseLength** | *number* | Length of time, in ticks, before the entity explodes. |
@@ -714,7 +714,7 @@ spawn(entityIdentifier: string, location: Minecraft.BlockLocation): Minecraft.En
 
 Spawns an entity at a location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to create. If no namespace is provided, 'minecraft:' is assumed. Note that an optional initial spawn event can be specified between less than/greater than signs (e.g., namespace:entityType). |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -738,7 +738,7 @@ spawnItem(itemStack: Minecraft.ItemStack, position: Minecraft.Location): Minecra
 
 Spawns an item entity at a specified location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemStack** | [*Minecraft.ItemStack*](../Minecraft/ItemStack.md) | ItemStack that describes the item entity to create. |
 | **position** | [*Minecraft.Location*](../Minecraft/Location.md) | Location to create the item entity at. |
@@ -766,7 +766,7 @@ spawnWithoutBehaviors(entityIdentifier: string, location: Minecraft.BlockLocatio
 
 Spawns an entity at a location without any AI behaviors. This method is frequently used in conjunction with methods like .walkTo to create predictable mob actions.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | - |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -806,7 +806,7 @@ succeedIf(callback: () => undefined): void
 
 Runs the given callback. If the callback does not throw an exception, the test is marked as a success.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | Callback function that runs. If the function runs successfully, the test is marked as a success. Typically, this function will have .assertXyz method calls within it. |
 
@@ -822,7 +822,7 @@ succeedOnTick(tick: number): void
 
 Marks the test as a success at the specified tick.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **tick** | *number* | Tick after the start of the GameTest to mark the test as successful. |
 
@@ -838,7 +838,7 @@ succeedOnTickWhen(tick: number, callback: () => undefined): void
 
 Runs the given callback at _tick_ ticks after the start of the test. If the callback does not throw an exception, the test is marked as a failure.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **tick** | *number* | Tick after the start of the GameTest to run the testing callback at. |
 | **callback** | () => undefined | Callback function that runs. If the function runs successfully, the test is marked as a success. |
@@ -855,7 +855,7 @@ succeedWhen(callback: () => undefined): void
 
 Runs the given callback every tick. When the callback successfully executes, the test is marked as a success. Specifically, the test will succeed when the callback does not throw an exception.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | () => undefined | Testing callback function that runs. If the function runs successfully, the test is marked as a success. |
 
@@ -871,7 +871,7 @@ succeedWhenBlockTypePresent(blockType: Minecraft.BlockType, location: Minecraft.
 
 Tests for the presence of a block of a particular type on every tick. When the specified block of a type is found, the test is marked as a success.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **blockType** | [*Minecraft.BlockType*](../Minecraft/BlockType.md) | - |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -888,7 +888,7 @@ succeedWhenEntityHasComponent(entityIdentifier: string, componentIdentifier: str
 
 Tests for the presence of a component on every tick. When the specified component is found, the test is marked as a success.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to look for. If no namespace is specified, 'minecraft:' is assumed. |
 | **componentIdentifier** | *string* | Type of component to test for the presence of. If no namespace is specified, 'minecraft:' is assumed. |
@@ -907,7 +907,7 @@ succeedWhenEntityNotPresent(entityIdentifier: string, location: Minecraft.BlockL
 
 Tests every tick and marks the test as a success when a particular entity is not present at a particular location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -924,7 +924,7 @@ succeedWhenEntityPresent(entityIdentifier: string, location: Minecraft.BlockLoca
 
 Tests for the presence of an entity on every tick. When an entity of the specified type is found, the test is marked as a success.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **entityIdentifier** | *string* | Type of entity to test for (e.g., 'minecraft:skeleton'). If an entity namespace is not specified, 'minecraft:' is assumed. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -941,7 +941,7 @@ walkTo(mob: Minecraft.Entity, location: Minecraft.BlockLocation, speedModifier: 
 
 Forces an entity to walk to a particular location. Usually used in conjunction with methods like .spawnWithoutBehaviors to have more predictable mob behaviors.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **mob** | [*Minecraft.Entity*](../Minecraft/Entity.md) | Mob entity to give orders to. |
 | **location** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | - |
@@ -959,7 +959,7 @@ worldLocation(relativeLocation: Minecraft.BlockLocation): Minecraft.BlockLocatio
 
 From a BlockLocation with coordinates relative to the GameTest structure block, returns a new BlockLocation with coordinates relative to world. Rotation of the GameTest structure is also taken into account.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **relativeLocation** | [*Minecraft.BlockLocation*](../Minecraft/BlockLocation.md) | Location relative to the GameTest command block. |
 

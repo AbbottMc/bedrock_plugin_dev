@@ -24,7 +24,7 @@ register(testClassName: string, testName: string, testFunction: (arg: Helper) =>
 `
 
 注册一个新的GameTest函数，此函数将可通过`/gametest run [testClassName]:[testName]` 执行
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **testClassName** | *string* | 此测试隶属的类名称 |

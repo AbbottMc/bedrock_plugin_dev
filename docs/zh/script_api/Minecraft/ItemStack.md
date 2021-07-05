@@ -35,7 +35,7 @@ new ItemStack(itemType: ItemType, amount: number, data: number)
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **itemType** | [*ItemType*](ItemType.md) | - |
 | **amount** | *number* | - |

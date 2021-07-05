@@ -23,7 +23,7 @@ run(commandString: string): json
 
 Runs a particular command from the context of the server. Command strings should not start with slash.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **commandString** | *string* | - |
 

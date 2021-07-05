@@ -27,7 +27,7 @@ description: Contents of the Minecraft.World class.
 getDimension(dimensionName: ('overworld'|'nether'|'the end')): Dimension
 `
 
-#### 实参列表
+#### 参数列表
 | 参数 | 类型 | 简介 |
 | :--- | :--- | :---: |
 | **dimensionName** | `'overworld'`, `'nether'`, `'the end'` | 维度的名称 |

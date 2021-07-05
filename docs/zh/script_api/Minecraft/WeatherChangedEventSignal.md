@@ -24,7 +24,7 @@ subscribe(callback: (arg0: WeatherChangedEvent) => undefined): (arg0: WeatherCha
 
 Adds a callback that will be called when weather changes.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg0: WeatherChangedEvent) => undefined | - |
 
@@ -38,7 +38,7 @@ unsubscribe(callback: (arg0: WeatherChangedEvent) => undefined): void
 
 Removes a callback from being called when weather changes.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg0: WeatherChangedEvent) => undefined | - |
 

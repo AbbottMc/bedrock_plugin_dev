@@ -44,7 +44,7 @@ Contains the combination of type [*Minecraft.BlockType*](../Minecraft/BlockType.
 
 获取置换的属性
 
-#### 实参列表
+#### 参数列表
 
 | 参数                   | 类型       | 描述 |
 | :--------------------- | :--------- | :--: |
@@ -100,7 +100,7 @@ block.setPermutation(bottomStoneSlab);
 
 查询置换是否具有标签
 
-#### 实参列表
+#### 参数列表
 
 | 参数          | 类型       | 描述 |
 | :------------ | :--------- | :--: |

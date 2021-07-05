@@ -27,7 +27,7 @@ isEmpty(location: BlockLocation): boolean
 
 Tests whether a particular location contains an Air (empty) block.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*BlockLocation*](BlockLocation.md) | The location at which to check for emptiness |
 
@@ -40,7 +40,7 @@ getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 `
 
 #### 参数
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*BlockLocation*](BlockLocation.md) | - |
 
@@ -54,7 +54,7 @@ getBlock(location: BlockLocation): Block
 
 Returns a block instance at the given location. This method was introduced as of version 1.17.10.21.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*BlockLocation*](BlockLocation.md) | The location at which to return a block. |
 
@@ -68,7 +68,7 @@ spawnEntity(identifier: string, location: BlockLocation): Entity
 
 Creates a new entity (e.g., a mob) at the specified location. This method was introduced as of version 1.17.10.21.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **identifier** | *string* | Identifier of the type of entity to spawn. If no namespace is specified, 'minecraft:' is assumed. |
 | **location** | [*BlockLocation*](BlockLocation.md) | The location at which to create the entity. |
@@ -83,7 +83,7 @@ createExplosion(location: Location, radius: number, explosionOptions: ExplosionO
 
 Creates an explosion at the specified location.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **location** | [*Location*](Location.md) | The location of the explosion. |
 | **radius** | *number* | Radius, in blocks, of the explosion to create. |

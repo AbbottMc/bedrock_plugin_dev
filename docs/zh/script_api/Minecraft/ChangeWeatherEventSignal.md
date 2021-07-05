@@ -22,7 +22,7 @@ subscribe(callback: (arg: WeatherChangedEvent) => undefined): (arg: WeatherChang
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: WeatherChangedEvent) => undefined | - |
 
@@ -35,7 +35,7 @@ unsubscribe(callback: (arg: WeatherChangedEvent) => undefined): void
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **callback** | (arg: WeatherChangedEvent) => undefined | - |
 

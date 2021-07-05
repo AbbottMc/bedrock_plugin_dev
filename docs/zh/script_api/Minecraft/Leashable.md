@@ -33,7 +33,7 @@ leash(leashHolder: Entity): void
 
 Leashes this entity to another entity.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **leashHolder** | [*Entity*](Entity.md) | The entity to leash this entity to. |
 

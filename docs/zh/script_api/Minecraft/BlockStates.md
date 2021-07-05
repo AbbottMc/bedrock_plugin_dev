@@ -139,7 +139,7 @@ multiFaceDirectionBits(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -155,7 +155,7 @@ bigDripleafHead(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -171,7 +171,7 @@ bigDripleafTilt(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -187,7 +187,7 @@ growingPlantAge(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -203,7 +203,7 @@ dripstoneThickness(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -219,7 +219,7 @@ respawnAnchorCharge(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -235,7 +235,7 @@ twistingVinesAge(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -251,7 +251,7 @@ rotation(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -267,7 +267,7 @@ wallConnectionTypeWest(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -283,7 +283,7 @@ wallConnectionTypeSouth(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -299,7 +299,7 @@ wallConnectionTypeEast(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -315,7 +315,7 @@ wallConnectionTypeNorth(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -331,7 +331,7 @@ wallPostBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -347,7 +347,7 @@ weepingVinesAge(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -363,7 +363,7 @@ honeyLevel(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -379,7 +379,7 @@ blockLightLevel(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -395,7 +395,7 @@ pillarAxis(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -411,7 +411,7 @@ leverDirection(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -427,7 +427,7 @@ coralFanDirection(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -443,7 +443,7 @@ composterFillLevel(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -459,7 +459,7 @@ extinguished(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -475,7 +475,7 @@ structureBlockType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -491,7 +491,7 @@ structureVoidType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -507,7 +507,7 @@ attachment(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -523,7 +523,7 @@ coralHangTypeBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -539,7 +539,7 @@ strippedBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -555,7 +555,7 @@ hanging(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -571,7 +571,7 @@ cauldronLiquid(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -587,7 +587,7 @@ coralColor(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -603,7 +603,7 @@ seaGrassType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -619,7 +619,7 @@ chemistryTableType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -635,7 +635,7 @@ doublePlantType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -651,7 +651,7 @@ prismarineBlockType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -667,7 +667,7 @@ wallBlockType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -683,7 +683,7 @@ hugeMushroomBits(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -699,7 +699,7 @@ stoneBrickType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -715,7 +715,7 @@ monsterEggStoneType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -731,7 +731,7 @@ stoneSlabType4(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -747,7 +747,7 @@ stoneSlabType3(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -763,7 +763,7 @@ stoneSlabType2(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -779,7 +779,7 @@ stoneSlabType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -795,7 +795,7 @@ flowerType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -811,7 +811,7 @@ tallGrassType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -827,7 +827,7 @@ sandStoneType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -843,7 +843,7 @@ spongeType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -859,7 +859,7 @@ newLeafType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -875,7 +875,7 @@ oldLeafType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -891,7 +891,7 @@ deprecated(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -907,7 +907,7 @@ chiselType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -923,7 +923,7 @@ newLogType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -939,7 +939,7 @@ oldLogType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -955,7 +955,7 @@ sandType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -971,7 +971,7 @@ dirtType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -987,7 +987,7 @@ stoneType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1003,7 +1003,7 @@ woodType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1019,7 +1019,7 @@ stabilityCheck(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1035,7 +1035,7 @@ stability(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1051,7 +1051,7 @@ bambooLeafSize(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1067,7 +1067,7 @@ bambooStalkThickness(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1083,7 +1083,7 @@ color(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1099,7 +1099,7 @@ coralDirection(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1115,7 +1115,7 @@ weirdoDirection(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1131,7 +1131,7 @@ groundSignDirection(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1147,7 +1147,7 @@ crackedState(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1163,7 +1163,7 @@ turtleEggCount(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1179,7 +1179,7 @@ dragDown(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1195,7 +1195,7 @@ torchFacingDirection(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1211,7 +1211,7 @@ saplingType(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1227,7 +1227,7 @@ itemFrameMapBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1243,7 +1243,7 @@ clusterCount(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1259,7 +1259,7 @@ deadBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1275,7 +1275,7 @@ colorBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1291,7 +1291,7 @@ allowUnderwaterBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1307,7 +1307,7 @@ vineDirectionBits(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1323,7 +1323,7 @@ upsideDownBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1339,7 +1339,7 @@ updateBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1355,7 +1355,7 @@ triggeredBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1371,7 +1371,7 @@ topSlotBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1387,7 +1387,7 @@ toggleBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1403,7 +1403,7 @@ suspendedBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1419,7 +1419,7 @@ repeaterDelay(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1435,7 +1435,7 @@ redstoneSignal(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1451,7 +1451,7 @@ railDirection(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1467,7 +1467,7 @@ railDataBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1483,7 +1483,7 @@ poweredBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1499,7 +1499,7 @@ persistentBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1515,7 +1515,7 @@ outputLitBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1531,7 +1531,7 @@ outputSubtractBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1547,7 +1547,7 @@ openBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1563,7 +1563,7 @@ occupiedBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1579,7 +1579,7 @@ kelpAge(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1595,7 +1595,7 @@ noDropBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1611,7 +1611,7 @@ moisturizedAmount(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1627,7 +1627,7 @@ liquidDepth(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1643,7 +1643,7 @@ inWallBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1659,7 +1659,7 @@ infiniburnBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1675,7 +1675,7 @@ height(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1691,7 +1691,7 @@ headPieceBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1707,7 +1707,7 @@ growth(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1723,7 +1723,7 @@ fillLevel(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1739,7 +1739,7 @@ facingDirection(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1755,7 +1755,7 @@ explodeBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1771,7 +1771,7 @@ endPortalEyeBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1787,7 +1787,7 @@ direction(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1803,7 +1803,7 @@ upperBlockBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1819,7 +1819,7 @@ doorHingeBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1835,7 +1835,7 @@ disarmedBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1851,7 +1851,7 @@ damage(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1867,7 +1867,7 @@ coveredBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1883,7 +1883,7 @@ conditionalBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1899,7 +1899,7 @@ buttonPressedBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1915,7 +1915,7 @@ brewingStandSlotCBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1931,7 +1931,7 @@ brewingStandSlotBBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1947,7 +1947,7 @@ brewingStandSlotABit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -1963,7 +1963,7 @@ biteCounter(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -1979,7 +1979,7 @@ portalAxis(stateName: string): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateName** | *string* | - |
 
@@ -1995,7 +1995,7 @@ attachedBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 
@@ -2011,7 +2011,7 @@ age(stateValue: number): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *number* | - |
 
@@ -2027,7 +2027,7 @@ ageBit(stateValue: boolean): any
 `
 
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **stateValue** | *boolean* | - |
 

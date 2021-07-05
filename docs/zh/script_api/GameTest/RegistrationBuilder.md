@@ -31,7 +31,7 @@ batch(batchName: ('night'|'day')): RegistrationBuilder
 
 Sets the batch for the test to run in.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **batchName** | `'night'`, `'day'` | Name of the batch for the test. |
 
@@ -45,7 +45,7 @@ required(isRequired: boolean): RegistrationBuilder
 
 Whether this test is required to pass as part of its broader set of tests.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **isRequired** | *boolean* | If set to true, the test must pass in order for the entire run of tests to pass. |
 
@@ -59,7 +59,7 @@ requiredSuccessfulAttempts(attemptCount: number): RegistrationBuilder
 
 Sets the number of successful test runs to be considered successful.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **attemptCount** | *number* | - |
 
@@ -73,7 +73,7 @@ maxAttempts(attemptCount: number): RegistrationBuilder
 
 Sets the maximum number of times a test will try to rerun if it fails.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **attemptCount** | *number* | - |
 
@@ -87,7 +87,7 @@ maxTicks(tickCount: number): RegistrationBuilder
 
 Sets the maximum number of ticks a test will run for before timing out and failing.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **tickCount** | *number* | - |
 
@@ -101,7 +101,7 @@ setupTicks(tickCount: number): RegistrationBuilder
 
 Sets the number of ticks for a test to wait before executing when the structure is spawned.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **tickCount** | *number* | - |
 
@@ -115,7 +115,7 @@ structureName(structureName: string): RegistrationBuilder
 
 Sets the name of the structure for a test to use. "xyz:bar" will load `/structures/xyz/bar.mcstructure` from the behavior pack stack.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **structureName** | *string* | - |
 
@@ -129,7 +129,7 @@ padding(paddingBlocks: number): RegistrationBuilder
 
 Size around the GameTest, in blocks, that should be reserved for the test when running multiple tests together.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **paddingBlocks** | *number* | Size, in blocks, around the GameTest where additional GameTests should not be created. |
 
@@ -143,7 +143,7 @@ tag(tag: string): RegistrationBuilder
 
 Adds a tag to a test. You can run all tests with a given tag with `/gametest runset <tag>`.
 #### Arguments
-| Param | Type | Description |
+| 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
 | **tag** | *string* | - |
 
