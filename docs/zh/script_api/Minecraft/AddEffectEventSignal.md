@@ -11,7 +11,7 @@ description: Contents of the Minecraft.AddEffectEventSignal class.
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。 
 :::
 <!--Manages callbacks that are connected to when an effect is added to an entity.-->
-管理当一个实体被添加了一个状态效果时的相关回调。
+管理添加状态效果至某实体时的相关回调。
 
 ## 方法
 - [subscribe](#subscribe)
