@@ -97,12 +97,12 @@ kill(): void
 getEffect(effectType: EffectType): Effect
 `
 
-获取玩家所携带的指定药水效果
+获取玩家所携带的指定状态效果对象
 
 #### 实参列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **effectType** | [*EffectType*](EffectType.md) | 目标药水效果的类型 |
+| **effectType** | [*EffectType*](EffectType.md) | 目标状态效果的类型 |
 
 返回 [*Effect*](Effect.md)
 
@@ -115,13 +115,13 @@ getEffect(effectType: EffectType): Effect
 addEffect(effectType: EffectType, duration: number, amplifier: number): void
 `
 
-为玩家添加药水效果，如中毒(poison)、凋零(wither)、瞬间伤害(InstantDamage)等。
+为玩家添加状态效果，如中毒(poison)、凋零(wither)、瞬间伤害(InstantDamage)等。
 #### 实参列表
 | 参数 | 类型 | 描述 |
 | :--- | :--- | :---: |
-| **effectType** | [*EffectType*](EffectType.md) | 为玩家添加的药水效果类型|
-| **duration** | *number* | 药水效果的持续时间 |
-| **amplifier** | *number* | 药水效果的强度等级 |
+| **effectType** | [*EffectType*](EffectType.md) | 为玩家添加的状态效果类型|
+| **duration** | *number* | 状态效果的持续时间 |
+| **amplifier** | *number* | 状态效果的强度等级 |
 
 
 ::: warning 注意

@@ -23,15 +23,15 @@ description: Contents of the Minecraft.Events class.
 
 
 ### **addEffect** - [`AddEffectEventSignal`](AddEffectEventSignal.md)
-此事件在实体被添加了状态时触发
+此事件在实体被添加了状态效果时触发
 
 
 ### **beforeChat** - [`BeforeChatEventSignal`](BeforeChatEventSignal.md)
-此事件在消息被传递或广播前触发,可以取消发送,也可以更新消息
+此事件在消息被广播或传递前触发。可取消发送消息，也可继续发送。
 
 
 ### **chat** - [`ChatEventSignal`](ChatEventSignal.md)
-此事件在消息被传递或广播后触发
+此事件在消息被广播或发送给玩家后触发
 
 
 ### **createEntity** - [`EntityEventSignal`](EntityEventSignal.md)
@@ -39,7 +39,7 @@ description: Contents of the Minecraft.Events class.
 
 
 ### **beforeActivatePiston** - [`BeforeActivatePistonEventSignal`](BeforeActivatePistonEventSignal.md)
-此事件在活塞收到激活命令,激活之前触发
+此事件在活塞被激活前触发
 
 
 ### **activatePiston** - [`ActivatePistonEventSignal`](ActivatePistonEventSignal.md)

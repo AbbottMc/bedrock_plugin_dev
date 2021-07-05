@@ -15,7 +15,7 @@ description: Contents of the Minecraft.BeforeChatEvent class.
 
 ## 属性
 ### **message** - `string`
-将被广播的消息。在beforeChat事件处理器中，_message_在呈现给玩家前可被编辑。
+将被广播的消息。在beforeChat事件处理器中，_message_ 在呈现给玩家前可被编辑。
 
 
 ### **sender** - `Player`

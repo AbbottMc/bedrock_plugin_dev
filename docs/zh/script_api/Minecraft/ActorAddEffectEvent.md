@@ -13,15 +13,16 @@ description: Contents of the Minecraft.ActorAddEffectEvent class.
 
 ## 属性
 ### **entity** - `Entity`
-被添加药水效果的实体
+被添加状态效果的实体
 
 
 ### **effect** - `Effect`
-添加的药水效果对象
+添加的状态效果对象
 
 
 ### **effectState** - `number`
-药水效果状态
+<!--暂定-->
+状态效果的状态
 
 
 
