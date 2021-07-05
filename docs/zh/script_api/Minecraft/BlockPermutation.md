@@ -11,7 +11,6 @@ description: Contents of the Minecraft.BlockPermutation class.
 ::: warning 注意
 这些接口是Plugin系统的一部分，目前属于实验性内容。与其他的实验性内容相同，在Minecraft的版本更新过程中，这些内容可能会发生一些功能性的变化。请自行关注Minecraft的更新日志以获取最新的接口更新。
 :::
-Contains the combination of type [*Minecraft.BlockType*](../Minecraft/BlockType.md) and properties (also sometimes called block state) which describe a block (but does not belong to a specific [*Minecraft.Block*](../Minecraft/Block.md)). This type was introduced as of version 1.17.10.21.
 
 包含[Minecraft.BlockType](../Minecraft/BlockType.md)类的集合与属性（通常被称方块状态），用于描述一个方块(但不属于特定的[Minecraft.Block](../Minecraft/Block.md)类)。此类在1.17.10.21出现
 
@@ -106,7 +105,7 @@ block.setPermutation(bottomStoneSlab);
 | :------------ | :--------- | :--: |
 | **tag** | *string* |  -  |
 
-返回*boolean* - 如果置换含有tag,返回 `true` ,否则返回`false`
+返回*boolean* - 如果置换含有tag,返回 `true` ,否则返回 `false`
 
 #### 示例
 
