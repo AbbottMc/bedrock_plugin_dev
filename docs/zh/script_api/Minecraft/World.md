@@ -14,7 +14,7 @@ description: Contents of the Minecraft.World class.
 包装了维度状态的类（比如overworld(主世界)、the nether(下界)或者the end(末地)）
 
 ## 属性
-### **events** - `Events`
+### **events** - [`Events`](Events.md)
 包含了一组适用于整个世界的事件。
 
 
