@@ -5,7 +5,7 @@
 - @燎原火魄（Bilibili: @燎原火魄）
 - @乾山瑶（Bilibili: @乾山瑶）
 - @TuDouNi92（Gitee: @potatocraft）
-- @xxyz30（Gitee: @xxyz30）
+- @xxyz30（Gitee/Bilibili: @xxyz30）
 - @zombie（Gitee: @nhzzz）
 
 ## 加入我们
