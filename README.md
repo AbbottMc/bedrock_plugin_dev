@@ -12,7 +12,7 @@
 本项目目前采取邀请制，如您想加入一同补充文档内容，可按如下步骤进行申请：
 1.  在本仓库的Issues页面新建一个Issue
     ![new_issue](/docs/images/join_us/new_issue.png)
-2.  设置issue名称为“协助申请<您的Gitee昵称>”，例：
+2.  设置issue名称为“【协助申请】<您的Gitee昵称>”，例：
     ![issue_name](/docs/images/join_us/issue_name.png)
 3.  选择中仓库管理员作为负责人
     ![choose_principal](/docs/images/join_us/choose_principal.png)

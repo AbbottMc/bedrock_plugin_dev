@@ -1,5 +1,5 @@
 ## 简介
-本站是基于官方文档翻译补充的非官方Plugin系统中文文档。托管于Gitee，同步至Github，部署于Netlify，基于CC-BY-SA 4.0协议运作。
+本站是基于官方文档翻译补充的非官方Plugin系统中文文档。托管于Gitee仓库，定期同步至Github仓库，部署于Netlify，基于CC-BY-SA 4.0协议运作。
 
 ## API名称
 对于API称呼问题，官方暂时将该API称为GameTest框架，但由于本文档属于社区文档，故而采用社区叫法——Plugin系统，在本站所有页面上，如无特别指明，统一使用Plugin系统指代该API集合。
@@ -15,7 +15,7 @@
 
 ### 不是中文文档嘛？为什么还有那么多接口文档是英文的？说好的更多实例呢？
 本文档仍处于建设状态，每位贡献者的精力都有限，还需时间，欢迎有能力的开发者加入一同翻译建设（具体加入方式可参阅本项目Gitee仓库中的介绍）。  
-github仓库链接：[https://github.com/AbbottMc/bedrock_plugin_dev](https://github.com/AbbottMc/bedrock_plugin_dev/)
+github仓库链接：[https://github.com/AbbottMc/bedrock_plugin_dev](https://gitee.com/qianshanyao/bedrock_plugin_dev)
 
 ### 垃圾文档，怎么什么接口都没有，开发个der，爬爬爬
 此文档包含了相对应版本的全部接口内容，至于相关接口为什么这么少，问mojang去，接口开放不归我们管，我们也没能力管。
