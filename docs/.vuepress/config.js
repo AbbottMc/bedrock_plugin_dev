@@ -46,7 +46,7 @@ module.exports = {
             items: [
               {
                 text: 'Minecraft基岩版开发wiki',
-                link: 'https://wiki.adodoz.cn'
+                link: 'https://wiki.bedev.cn'
               }
             ]
           }

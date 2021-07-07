@@ -1,5 +1,5 @@
 ## 简介
-本站是基于官方文档翻译补充的非官方Plugin系统中文文档。托管于Github，基于CC-BY-SA 4.0协议运作。
+本站是基于官方文档翻译补充的非官方Plugin系统中文文档。托管于Gitee，同步至Github，部署于Netlify，基于CC-BY-SA 4.0协议运作。
 
 ## API名称
 对于API称呼问题，官方暂时将该API称为GameTest框架，但由于本文档属于社区文档，故而采用社区叫法——Plugin系统，在本站所有页面上，如无特别指明，统一使用Plugin系统指代该API集合。

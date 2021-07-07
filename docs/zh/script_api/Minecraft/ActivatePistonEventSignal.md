@@ -21,6 +21,7 @@ description: Contents of the Minecraft.ActivatePistonEventSignal class.
 `
 subscribe(callback: (args: ActivatePistonEvent) => undefined): (arg: ActivatePistonEvent) => undefined
 `
+
 向 _活塞激活事件_ 的回调队列中添加一个指定的回调函数，该函数会在活塞伸出或收缩时被调用。
 #### 参数列表
 | 参数 | 类型 | 描述 |
